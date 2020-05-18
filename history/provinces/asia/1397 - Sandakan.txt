@@ -1,7 +1,0 @@
-owner = SUL
-controller = SUL
-add_core = SUL
-add_core = KTI
-trade_goods = grain  state_building = {  level = 1  building = grain_factory  upgrade = yes  }
-life_rating = 31
-terrain = jungle_farmland

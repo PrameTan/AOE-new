@@ -1,3 +1,0 @@
-trade_goods = fruit  state_building = {  level = 1  building = fruit_factory  upgrade = yes  }
-terrain = montane_forest
-life_rating = 10

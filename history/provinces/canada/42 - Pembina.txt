@@ -1,7 +1,0 @@
-owner = ASB
-controller = ASB
-add_core = ASB
-add_core = MTC
-trade_goods = grain  state_building = {  level = 1  building = grain_factory  upgrade = yes  }
-terrain = plains
-life_rating = 10

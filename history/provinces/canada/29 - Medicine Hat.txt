@@ -1,8 +1,0 @@
-owner = KAZ
-controller = KAZ
-add_core = KAZ
-add_core = KHI
-add_core = BUK
-trade_goods = fruit  state_building = {  level = 1  building = fruit_factory  upgrade = yes  }
-terrain = desert
-life_rating = 25

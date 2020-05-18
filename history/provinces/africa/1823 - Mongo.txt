@@ -1,6 +1,0 @@
-owner = WAD
-controller = WAD
-add_core = WAD
-trade_goods = grain  state_building = {  level = 1  building = grain_factory  upgrade = yes  }
-terrain = semidesert
-life_rating = 10

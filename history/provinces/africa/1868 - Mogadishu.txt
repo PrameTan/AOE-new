@@ -1,8 +1,0 @@
-owner = GEL
-controller = GEL
-add_core = MAJ
-add_core = GEL
-add_core = WRL
-trade_goods = cattle  state_building = {  level = 1  building = cattle_factory  upgrade = yes  }
-terrain = savanna
-life_rating = 35

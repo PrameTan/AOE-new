@@ -1,8 +1,0 @@
-owner = SPA
-controller = SPA
-add_core = SPA
-add_core = MOR
-trade_goods = fish  state_building = {  level = 1  building = fish_factory  upgrade = yes  }
-terrain = ceuta
-life_rating = 35
-

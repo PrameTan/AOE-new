@@ -1,7 +1,0 @@
-owner = VOP
-controller = VOP
-add_core = VOP
-add_core = PEU
-trade_goods = grain  state_building = {  level = 1  building = grain_factory  upgrade = yes  }
-terrain = dryhills
-life_rating = 35

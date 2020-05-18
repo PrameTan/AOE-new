@@ -1,6 +1,0 @@
-owner = VOP
-controller = VOP
-add_core = VOP
-add_core = PEU
-trade_goods = timber  state_building = {  level = 1  building = timber_factory  upgrade = yes  }
-life_rating = 35

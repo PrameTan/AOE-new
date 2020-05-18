@@ -1,9 +1,0 @@
-owner = MPC
-controller = MPC
-add_core = MPC
-add_core = VOP
-add_core = CHL
-add_core = PTG
-trade_goods = fish  state_building = {  level = 1  building = fish_factory  upgrade = yes  }
-terrain = montane_forest
-life_rating = 35

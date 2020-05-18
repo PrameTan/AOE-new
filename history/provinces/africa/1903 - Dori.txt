@@ -1,7 +1,0 @@
-owner = MOS
-controller = MOS
-add_core = MOS
-add_core = SEG
-trade_goods = grain  state_building = {  level = 1  building = grain_factory  upgrade = yes  }
-terrain = semidesert
-life_rating = 32

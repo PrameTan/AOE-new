@@ -1,9 +1,0 @@
-owner = PER
-controller = PER
-add_core = PER
-add_core = TKM
-add_core = KHI
-add_core = KHR
-terrain = desert
-trade_goods = opium  state_building = {  level = 1  building = opium_factory  upgrade = yes  }
-life_rating = 15

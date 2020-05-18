@@ -1,3 +1,0 @@
-trade_goods = tropical_wood  state_building = {  level = 1  building = tropical_wood_factory  upgrade = yes  }
-terrain = savanna
-life_rating = 15

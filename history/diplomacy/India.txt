@@ -1,7 +1,0 @@
-### Mughal Subahs ###
-vassal = { 
-	first = MUG
-	second = MAH
-	start_date = 1690.1.1
-	end_date = 2000.1.1
-}

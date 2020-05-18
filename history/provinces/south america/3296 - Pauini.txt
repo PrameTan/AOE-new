@@ -1,5 +1,0 @@
-add_core = VOP
-add_core = SPU
-add_core = BOL
-trade_goods = grain  state_building = {  level = 1  building = grain_factory  upgrade = yes  }
-life_rating = 15

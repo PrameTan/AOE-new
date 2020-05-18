@@ -1,9 +1,0 @@
-owner = MAT
-controller = MAT
-add_core = ZOU
-add_core = GAZ
-add_core = MAT
-add_core = TRN
-terrain = mountain
-trade_goods = wool  state_building = {  level = 1  building = wool_factory  upgrade = yes  }
-life_rating = 15
