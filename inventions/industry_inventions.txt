@@ -1625,12 +1625,12 @@ carl_bosch = {
 }
 
 tulls_seed_drill = {
-	limit = { piston_steam_engine = 1 }
+	limit = { mechanical_production = 1 }
 	chance = {
 		base = 6
 	}
 	effect = {
-
+		factory_goods_output = { grain = 0.1 }
 	}
 }
 
