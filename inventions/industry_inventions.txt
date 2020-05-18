@@ -9,7 +9,7 @@ i_paper_mill = {
 		activate_building = paper_mill 
 	}
 }
-# high_pressure_steam_engine # Early Steam Engine
+# high_pressure_steam_engine - Early Steam Engine
 newcomen_engine = {
 	news = no
 	chance = {
@@ -19,6 +19,7 @@ newcomen_engine = {
 		 
 	}
 }
+# compound_steam_engines
 #combustion_engine
 daimlers_automobile = {
 	limit = { combustion_engine = 1 }
