@@ -1,0 +1,122 @@
+political_decisions = {
+
+	reintegrate_moghulistan = {
+			picture = claim_greater_mongolia
+			potential = {
+			tag = DZN
+			NOT = { war_with = XIN }
+			NOT = {
+				has_country_flag = reintegrated_moghulistan
+			}
+		}
+		
+		allow = {
+			1594 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			set_country_flag = reintegrated_moghulistan
+			prestige = 20
+			XIN = {
+				all_core = {
+					add_core = DZN
+			}
+			}
+			add_accepted_culture = uighur
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+
+	pressure_bukhara = {
+			picture = commodities_in_central_asia
+			potential = {
+			tag = DZN
+			has_country_flag = reintegrated_moghulistan
+			NOT = {
+				has_country_flag = attacked_bukhara
+			}
+		}
+		
+		allow = {
+			year = 1709
+			1594 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			set_country_flag = attacked_bukhara
+			BUK = { country_event = 6083 }
+			prestige = 15
+			}
+		
+		ai_will_do = { factor = 1 }
+	}
+
+	reclaim_district_of_river_ayaguz = {
+			picture = commodities_in_central_asia
+			potential = {
+			tag = KAZ
+			NOT = {
+				has_country_flag = reclaimed_agayuz
+			}
+		}
+		
+		allow = {
+			year = 1718
+		}
+		
+		effect = {
+			set_country_flag = reclaimed_agayuz
+			DZN = { country_event = 6078 }
+			}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	reclaim_eastern_tribal_areas = {
+			picture = commodities_in_central_asia
+			potential = {
+			tag = KAZ
+			NOT = {
+				has_country_flag = claimed_eastern_tribal_areas
+			}
+		}
+		
+		allow = {
+			1187 = {
+				owned_by = KAZ
+			}
+		}
+		
+		effect = {
+			set_country_flag = claimed_eastern_tribal_areas
+			1186 = {
+				add_core = KAZ
+			}
+			1188 = {
+				add_core = KAZ
+			}
+			1595 = {
+				add_core = KAZ
+			}
+			1596 = {
+				add_core = KAZ
+			}
+			2679 = {
+				add_core = KAZ
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+}

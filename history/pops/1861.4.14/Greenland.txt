@@ -1,0 +1,87 @@
+
+
+251 = {
+	bureaucrats = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 25
+	}
+
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 75
+	}
+
+	farmers = {
+		culture = inuit
+		religion = protestant
+		size = 1275
+	}
+}
+
+2591 = {
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 5
+	}
+
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 10
+	}
+
+	farmers = {
+		culture = inuit
+		religion = protestant
+		size = 385
+	}
+}
+
+2632 = {
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 5
+	}
+
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 10
+	}
+
+	farmers = {
+		culture = inuit
+		religion = protestant
+		size = 385
+	}
+}
+
+2636 = {
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 3
+	}
+
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 7
+	}
+
+	farmers = {
+		culture = inuit
+		religion = protestant
+		size = 240
+	}
+}

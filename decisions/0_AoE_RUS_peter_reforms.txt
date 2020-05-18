@@ -1,0 +1,533 @@
+political_decisions = {
+	new_administration_rus = {
+		picture = admin_rus
+		potential = {
+			tag = RUS
+			NOT = {
+			has_country_flag = new_administration_rus
+			}
+		}
+		allow = {
+			NOT = {
+				OR = {
+					health_care = no_health_care
+					health_care = trinket_health_care
+				}
+			}
+			central_bank_money_bill_printing = 1
+			war = no
+		}
+		effect = {
+		add_country_modifier = {
+			name = improved_administration
+			duration = -1
+		}
+		set_country_flag = new_administration_rus
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	declere_russian_empire = {
+		picture = rus_empire
+		potential = {
+			tag = RUS
+			government = tsardom
+		}
+		allow = {
+			idealism = 1
+			war = no
+			owns = 994
+			owns = 354
+			owns = 1047
+			owns = 350
+		}
+		effect = {
+		government = absolute_monarchy
+		prestige = 60
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	construct_st_petersburg = {
+		picture = petersburg
+		potential = {
+			tag = RUS
+			NOT = { capital = 994 }
+		}
+
+		allow = {
+		owns = 994 # St.Petersburg	
+		}
+	
+		effect = {
+			capital = 994
+			994 = {
+					life_rating = 5
+				change_province_name = "St.Petersburg"
+				naval_base = 3
+				fort = 2
+				add_province_modifier = {
+					name = baby_boom
+					duration = 5475
+				}
+			}
+			prestige = 5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	claim_the_baltics = {
+		picture = baltic_russia
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = claimed_baltics }
+		}
+	
+		allow = {
+			war = no
+			NOT = {owns = 994}
+		}
+	
+		effect = {
+			set_country_flag = claimed_baltics
+			RUS_349 = {
+				add_core = THIS 
+			}
+			994 = {
+				add_core = THIS
+			}
+			354 = {
+				add_core = THIS
+			}
+			355 = {
+				add_core = THIS
+			}
+			996 = {
+				add_core = THIS
+			}
+			339 = {
+				add_core = THIS
+			}
+			badboy = 15
+		}
+		ai_will_do = { factor = 1 }
+	}
+	claim_crimea_south_ukrine = {
+		picture = crimea
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = claimed_crimea_south_ukrine }
+		}
+		allow = {
+			military_score = 150
+			is_greater_power = yes
+			war_policy  = jingoism
+			government = absolute_monarchy
+		}
+		effect = {
+			set_country_flag = claimed_crimea_south_ukrine
+			RUS_964 = { add_core = RUS }
+			RUS_968 = { add_core = RUS }
+			RUS_973 = { add_core = RUS }
+			1048 =  { add_core = RUS }
+			badboy = 15
+		}
+		ai_will_do = { factor = 1 }	
+	}
+	enact_the_table_of_ranks = {
+		picture = table_of_ranks
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = enacted_the_table_of_ranks
+			}
+		}
+		allow = {
+			NOT = {
+				OR = {
+					safety_regulations = no_safety
+					safety_regulations = trinket_safety
+				}
+			}
+			OR = {
+				pensions = low_pensions
+				pensions = acceptable_pensions
+				pensions = good_pensions
+			}
+			war = no
+		}
+		effect = {
+		add_country_modifier = {
+			name = table_of_ranks
+			duration = -1
+		}
+		set_country_flag = enacted_the_table_of_ranks
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	integrate_kalmyk = {
+		picture = kalmyk
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = integrated_kalmyk }
+		}
+		allow = {
+			KMK = {
+				vassal_of = THIS
+			}
+			mass_politics = 1
+			is_greater_power = yes
+			war_policy  = jingoism
+		}
+		effect = {
+			set_country_flag = integrated_kalmyk
+			KMK = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			inherit = KMK
+			badboy = 5
+		}
+		ai_will_do = { factor = 1 }	
+	}
+	enact_nakaz = {
+		picture = nakaz
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = enacted_nakaz
+			}
+		}
+		allow = {
+			has_country_modifier = catharine_the_great
+			NOT = {
+				OR = {
+					safety_regulations = no_safety
+					safety_regulations = trinket_safety
+				}
+			}
+			NOT = {
+				OR = {
+					health_care = no_health_care
+					health_care = trinket_health_care
+				}
+			}
+			OR = {
+				upper_house_composition = party_appointed
+				upper_house_composition = appointed
+			}
+			government = absolute_monarchy
+			ruling_party_ideology = reactionary
+			war = no
+		}
+		effect = {
+			political_reform = party_appointed
+			political_reform = unitary
+			add_country_modifier = {
+				name = nakaz
+				duration = -1
+			}
+			set_country_flag = enacted_nakaz
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	claim_ruthenia = {
+		picture = ruthenia
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = claimed_ruthenia }
+		}
+		allow = {
+			is_greater_power = yes
+			war_policy  = jingoism
+			owns = 718
+			owns = 958
+			owns = 360
+			OR = {
+				POL = {
+					NOT = { is_greater_power = yes }
+					exists = yes
+				}
+				PLC = {
+					NOT = { is_greater_power = yes }
+					exists = yes
+				}
+				AND = {
+					POL = { NOT = { exists = yes } }
+					PLC = { NOT = { exists = yes } }
+				}
+			}
+		}
+		effect = {
+			set_country_flag = claimed_ruthenia
+			356	= { add_core = RUS }
+			945	= { add_core = RUS }
+			944	= { add_core = RUS }
+			949 = { add_core = RUS }
+			RUS_947	= { add_core = RUS }
+			RUS_718	= { add_core = RUS }
+			RUS_958	= { add_core = RUS }
+			961	= { add_core = RUS }
+			954 = { add_core = RUS }
+			947 = { add_core = RUS }
+			939 = { add_core = RUS }
+			3337 = { add_core = RUS }
+			RUS_360	= { limit = { NOT = { province_id = 362 } } add_core = RUS }
+			RUS_707	= { add_core = RUS }
+			RUS_940 = { add_core = RUS }
+			RUS_959 = { add_core = RUS }
+			badboy = 22
+		}
+		ai_will_do = { factor = 1 }	
+	}
+	conquer_east_prussia = {
+		picture = ducal_prussia
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = conquer_east_prussia }
+		}
+		allow = {
+			owns = 994
+			owns = 695
+			is_greater_power = yes
+			war_policy = jingoism
+			NOT = {
+				PRU = {
+					is_greater_power = yes
+				}
+			}
+		}
+		effect = {
+			set_country_flag = conquer_east_prussia
+			any_owned = {
+				limit = {
+					region = PRU_695
+				}
+				add_province_modifier = {
+					name = population_resettlement
+					duration = 7300
+				}
+			}
+			695 = { add_core = RUS }
+			697 = { add_core = RUS }
+			698 = { add_core = RUS }
+			badboy = 5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	settle_alaska = {
+		picture = alaska
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = settled_alaska }
+			has_global_flag = alaska_discovered
+		}
+		allow = {
+			is_greater_power = yes
+			money = 30000
+			blue_and_brown_water_schools = 1
+			naval_statistics = 1
+		}
+		effect = {
+			set_country_flag = settled_alaska
+			1 = { secede_province = THIS add_core = LSK }
+			2 = { secede_province = THIS add_core = LSK }
+			4 = { secede_province = THIS add_core = LSK }
+			5 = { secede_province = THIS add_core = LSK }
+			release_vassal = LSK
+			LSK = {
+				government = colonial_company
+				political_reform = yes_meeting
+				political_reform = free_press
+				political_reform = gerrymandering
+				political_reform = all_voting_pops
+				political_reform = open_borders
+				political_reform = unitary
+				add_country_modifier = {
+					name = land_of_opportunity
+					duration = 1825
+				}
+				add_country_modifier = {
+					name = cultural_resurgence
+					duration = 1825
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	invite_germans_to_southern_border = {
+		picture = migration
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = volga_germs }
+		}
+		allow = {
+			money = 30000
+			synthetic_polymers = 1
+			mass_politics = 1
+			NOT = { CRI = { exists = yes } }
+			owns = 968
+			owns = 970
+			owns = 973
+		}
+		effect = {
+			set_country_flag = volga_germs
+			money = -30000
+			PRU_578 = { 
+				any_pop = { 
+					limit = { 
+						OR = {
+							has_pop_culture = north_german
+							has_pop_culture = south_german
+						}
+						militancy = 5
+					NOT = { has_pop_culture = south_italian }
+					}
+					
+					move_pop = 1037
+				}
+			}
+			PRU_575 = { 
+				any_pop = { 
+					limit = { 
+						OR = {
+							has_pop_culture = north_german
+							has_pop_culture = south_german
+						}
+						NOT = { has_pop_culture = south_italian }
+						militancy = 5
+					} 
+					move_pop = 1035
+				}
+			}
+			PRU_570 = { 
+				any_pop = { 
+					limit = { 
+						OR = {
+							has_pop_culture = north_german
+							has_pop_culture = south_german
+						}
+						NOT = { has_pop_culture = south_italian }
+						NOT = { has_pop_culture = north_italian }
+						militancy = 5
+					} 
+					move_pop = 973 
+				}
+			}
+			BAV_599 = { 
+				any_pop = { 
+					limit = { 
+						OR = {
+							has_pop_culture = north_german
+							has_pop_culture = south_german
+						}
+						NOT = { has_pop_culture = south_italian }
+						NOT = { has_pop_culture = north_italian }
+						militancy = 5
+					} 
+					move_pop = 970
+				}
+			}
+			BAV_595 = { 
+				any_pop = { 
+					limit = { 
+						OR = {
+							has_pop_culture = north_german
+							has_pop_culture = south_german
+						}
+						NOT = { has_pop_culture = south_italian }
+						NOT = { has_pop_culture = north_italian }
+						militancy = 5
+					} 
+					move_pop = 968 
+				}
+			}
+			1037 = {
+				add_province_modifier = {
+					name = recently_built_city
+					duration = 1325
+				}
+			}
+			1035 = {
+				add_province_modifier = {
+					name = recently_built_city
+					duration = 1325
+				}
+			}
+			973 = {
+				add_province_modifier = {
+					name = recently_built_city
+					duration = 1325
+				}
+			}
+			970 = {
+				add_province_modifier = {
+					name = recently_built_city
+					duration = 1325
+				}
+			}
+			968 = {
+				add_province_modifier = {
+					name = recently_built_city
+					duration = 1325
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	introduce_proper_consciption = {
+		picture = army_training
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = introduced_proper_consciption
+			}
+		}
+		allow = {
+			army_professionalism = 1
+			has_country_modifier = peter_the_great
+		}
+		effect = {
+			add_country_modifier = {
+				name = petes_conscription
+				duration = -1
+			}
+			set_country_flag = introduced_proper_consciption
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	vaccination_cat = {
+		picture = ill_hand
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = vaccination_cat
+			}
+		}
+		allow = {
+			chemistry_and_electricity_7 = 1
+			has_country_modifier = catharine_the_great
+		}
+		effect = {
+			add_country_modifier = {
+				name = russian_vaccination
+				duration = 3650
+			}
+			set_country_flag = vaccination_cat
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+}

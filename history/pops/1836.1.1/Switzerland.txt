@@ -1,0 +1,972 @@
+#Schweiz Region (1388000)
+#Zurich (560000/140000 POPS)
+603 = {
+	aristocrats = {
+		culture = swiss_german
+		religion = protestant
+		size = 288
+	}
+
+	clergymen = {
+		culture = swiss_german
+		religion = protestant
+		size = 802
+	}
+
+	capitalists = {
+		culture = swiss_german
+		religion = protestant
+		size = 64
+	}
+
+	clerks = {
+		culture = swiss_german
+		religion = protestant
+		size = 38
+	}
+
+	craftsmen = {
+		culture = swiss_german
+		religion = protestant
+		size = 10568
+	}
+
+	artisans = {
+		culture = swiss_german
+		religion = protestant
+		size = 706
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 192
+	}
+
+	soldiers = {
+		culture = swiss_german
+		religion = protestant
+		size = 904
+	}
+
+	farmers = {
+		culture = swiss_german
+		religion = protestant
+		size = 40278
+	}
+
+	labourers = {
+		culture = swiss_german
+		religion = protestant
+		size = 2072
+	}
+
+	aristocrats = {
+		culture = swiss_german
+		religion = catholic
+		size = 160
+	}
+
+	clergymen = {
+		culture = swiss_german
+		religion = catholic
+		size = 320
+	}
+
+	clerks = {
+		culture = swiss_german
+		religion = catholic
+		size = 19
+	}
+
+	craftsmen = {
+		culture = swiss_german
+		religion = catholic
+		size = 384
+	}
+
+	artisans = {
+		culture = swiss_german
+		religion = catholic
+		size = 1020
+	}
+
+	soldiers = {
+		culture = swiss_german
+		religion = catholic
+		size = 904
+	}
+
+	farmers = {
+		culture = swiss_german
+		religion = catholic
+		size = 25804
+	}
+
+	labourers = {
+		culture = swiss_german
+		religion = catholic
+		size = 1369
+	}
+}
+#Basel (272000/68000 POPS)
+604 = {
+	aristocrats = {
+		culture = swiss_german
+		religion = protestant
+		size = 48
+	}
+
+	clergymen = {
+		culture = swiss_german
+		religion = protestant
+		size = 86
+	}
+
+	clerks = {
+		culture = swiss_german
+		religion = protestant
+		size = 22
+	}
+
+	craftsmen = {
+		culture = swiss_german
+		religion = protestant
+		size = 240
+	}
+
+	artisans = {
+		culture = swiss_german
+		religion = protestant
+		size = 704
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 64
+	}
+
+	soldiers = {
+		culture = swiss_german
+		religion = protestant
+		size = 904
+	}
+
+	farmers = {
+		culture = swiss_german
+		religion = protestant
+		size = 11200
+	}
+
+	labourers = {
+		culture = swiss_german
+		religion = protestant
+		size = 589
+	}
+
+	aristocrats = {
+		culture = swiss_german
+		religion = catholic
+		size = 48
+	}
+
+	clergymen = {
+		culture = swiss_german
+		religion = catholic
+		size = 80
+	}
+
+	clerks = {
+		culture = swiss_german
+		religion = catholic
+		size = 19
+	}
+
+	craftsmen = {
+		culture = swiss_german
+		religion = catholic
+		size = 192
+	}
+
+	artisans = {
+		culture = swiss_german
+		religion = catholic
+		size = 592
+	}
+
+	soldiers = {
+		culture = swiss_german
+		religion = catholic
+		size = 904
+	}
+
+	farmers = {
+		culture = swiss_german
+		religion = catholic
+		size = 8046
+	}
+
+	labourers = {
+		culture = swiss_german
+		religion = catholic
+		size = 466
+	}
+}
+#Bern (352000/88000 POPS)
+605 = {
+	aristocrats = {
+		culture = swiss_german
+		religion = protestant
+		size = 224
+	}
+
+	capitalists = {
+		culture = swiss_german
+		religion = protestant
+		size = 64
+	}
+
+	officers = {
+		culture = swiss_german
+		religion = protestant
+		size = 224
+	}
+
+	bureaucrats = {
+		culture = swiss_german
+		religion = protestant
+		size = 512
+	}
+
+	clergymen = {
+		culture = swiss_german
+		religion = protestant
+		size = 400
+	}
+
+	clerks = {
+		culture = swiss_german
+		religion = protestant
+		size = 48
+	}
+
+	craftsmen = {
+		culture = swiss_german
+		religion = protestant
+		size = 960
+	}
+
+	artisans = {
+		culture = swiss_german
+		religion = protestant
+		size = 2480
+	}
+
+	soldiers = {
+		culture = swiss_german
+		religion = protestant
+		size = 704
+	}
+
+	farmers = {
+		culture = swiss_german
+		religion = protestant
+		size = 50045
+	}
+
+	labourers = {
+		culture = swiss_german
+		religion = protestant
+		size = 2239
+	}
+}
+#Lucerne (204000/51000 POPS)
+606 = {
+	aristocrats = {
+		culture = swiss_german
+		religion = catholic
+		size = 112
+	}
+
+	clergymen = {
+		culture = swiss_german
+		religion = catholic
+		size = 224
+	}
+
+	artisans = {
+		culture = swiss_german
+		religion = catholic
+		size = 2040
+	}
+
+	soldiers = {
+		culture = swiss_german
+		religion = catholic
+		size = 904
+	}
+
+	farmers = {
+		culture = swiss_german
+		religion = catholic
+		size = 22926
+	}
+
+	labourers = {
+		culture = swiss_german
+		religion = catholic
+		size = 1522
+	}
+
+}
+#Vaud & Valais Region (444000)
+#Geneva (316000/79000 POPS)
+607 = {
+	aristocrats = {
+		culture = swiss_french
+		religion = protestant
+		size = 128
+	}
+
+	bureaucrats = {
+		culture = swiss_french
+		religion = protestant
+		size = 77
+	}
+
+	officers = {
+		culture = swiss_french
+		religion = protestant
+		size = 38
+	}
+
+	clergymen = {
+		culture = swiss_french
+		religion = protestant
+		size = 192
+	}
+
+	artisans = {
+		culture = swiss_french
+		religion = protestant
+		size = 2060
+	}
+
+	soldiers = {
+		culture = swiss_french
+		religion = protestant
+		size = 704
+	}
+
+	farmers = {
+		culture = swiss_french
+		religion = protestant
+		size = 20697
+	}
+
+	labourers = {
+		culture = swiss_french
+		religion = protestant
+		size = 1300
+	}
+
+	aristocrats = {
+		culture = swiss_french
+		religion = catholic
+		size = 192
+	}
+
+	bureaucrats = {
+		culture = swiss_french
+		religion = catholic
+		size = 51
+	}
+
+	officers = {
+		culture = swiss_french
+		religion = catholic
+		size = 32
+	}
+
+	clergymen = {
+		culture = swiss_french
+		religion = catholic
+		size = 224
+	}
+
+	artisans = {
+		culture = swiss_french
+		religion = catholic
+		size = 1420
+	}
+
+	soldiers = {
+		culture = swiss_french
+		religion = catholic
+		size = 904
+	}
+
+	farmers = {
+		culture = swiss_french
+		religion = catholic
+		size = 8034
+	}
+
+	labourers = {
+		culture = swiss_french
+		religion = catholic
+		size = 465
+	}
+}
+#Neuchatel (56000/14000 POPS)
+608 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 32
+	}
+	aristocrats = {
+		culture = swiss_french
+		religion = protestant
+		size = 32
+	}
+
+	clergymen = {
+		culture = swiss_french
+		religion = protestant
+		size = 80
+	}
+
+	artisans = {
+		culture = swiss_french
+		religion = protestant
+		size = 1020
+	}
+
+	soldiers = {
+		culture = swiss_french
+		religion = protestant
+		size = 96
+	}
+
+	farmers = {
+		culture = swiss_french
+		religion = protestant
+		size = 10000
+	}
+
+	labourers = {
+		culture = swiss_french
+		religion = protestant
+		size = 501
+	}
+}
+#Sitten (72000/18000) POPS
+609 = {
+	clergymen = {
+		culture = swiss_french
+		religion = catholic
+		size = 58
+	}
+	
+	bureaucrats = {
+		culture = swiss_french
+		religion = catholic
+		size = 32
+	}
+
+	artisans = {
+		culture = swiss_french
+		religion = catholic
+		size = 352
+	}
+
+	farmers = {
+		culture = swiss_french
+		religion = catholic
+		size = 6070
+	}
+
+	labourers = {
+		culture = swiss_french
+		religion = catholic
+		size = 356
+	}
+}
+#Ticino & Grisons Region (188000)
+#Lugano (108000/27000 POPS)
+2568 = {
+	aristocrats = {
+		culture = swiss_italian
+		religion = catholic
+		size = 160
+	}
+
+	bureaucrats = {
+		culture = swiss_italian
+		religion = catholic
+		size = 64
+	}
+
+	officers = {
+		culture = swiss_italian
+		religion = catholic
+		size = 32
+	}
+
+	clergymen = {
+		culture = swiss_italian
+		religion = catholic
+		size = 176
+	}
+
+	artisans = {
+		culture = swiss_italian
+		religion = catholic
+		size = 800
+	}
+
+	soldiers = {
+		culture = swiss_italian
+		religion = catholic
+		size = 904
+	}
+
+	farmers = {
+		culture = swiss_italian
+		religion = catholic
+		size = 11650
+	}
+
+	labourers = {
+		culture = swiss_italian
+		religion = catholic
+		size = 982
+	}
+	
+	farmers = {
+		culture = swiss_italian
+		religion = catholic
+		size = 1459
+	}
+
+	labourers = {
+		culture = swiss_italian
+		religion = catholic
+		size = 77
+	}
+}
+#Chur (80000/20000 POPS)
+611 = {
+	aristocrats = {
+		culture = romansh
+		religion = catholic
+		size = 64
+	}
+
+	clergymen = {
+		culture = romansh
+		religion = catholic
+		size = 176
+	}
+
+	artisans = {
+		culture = romansh
+		religion = catholic
+		size = 416
+	}
+
+	soldiers = {
+		culture = swiss_german
+		religion = catholic
+		size = 704
+	}
+
+	farmers = {
+		culture = romansh
+		religion = catholic
+		size = 5596
+	}
+
+	labourers = {
+		culture = romansh
+		religion = catholic
+		size = 284
+	}
+
+	aristocrats = {
+		culture = swiss_german
+		religion = protestant
+		size = 32
+	}
+
+	clergymen = {
+		culture = swiss_german
+		religion = protestant
+		size = 32
+	}
+
+	artisans = {
+		culture = swiss_german
+		religion = protestant
+		size = 224
+	}
+
+	soldiers = {
+		culture = swiss_german
+		religion = protestant
+		size = 48
+	}
+
+	farmers = {
+		culture = swiss_german
+		religion = protestant
+		size = 3037
+	}
+
+	labourers = {
+		culture = swiss_german
+		religion = protestant
+		size = 207
+	}
+
+}
+#Fribourg
+3250 = {
+	aristocrats = {
+		culture = swiss_french
+		religion = catholic
+		size = 128
+	}
+
+	bureaucrats = {
+		culture = swiss_french
+		religion = catholic
+		size = 77
+	}
+
+	officers = {
+		culture = swiss_french
+		religion = catholic
+		size = 38
+	}
+
+	clergymen = {
+		culture = swiss_french
+		religion = catholic
+		size = 192
+	}
+
+	aristocrats = {
+		culture = swiss_french
+		religion = catholic
+		size = 192
+	}
+
+	bureaucrats = {
+		culture = swiss_french
+		religion = catholic
+		size = 51
+	}
+
+	officers = {
+		culture = swiss_french
+		religion = catholic
+		size = 32
+	}
+
+	clergymen = {
+		culture = swiss_french
+		religion = catholic
+		size = 224
+	}
+
+	artisans = {
+		culture = swiss_french
+		religion = catholic
+		size = 1420
+	}
+
+	soldiers = {
+		culture = swiss_french
+		religion = catholic
+		size = 704
+	}
+
+	farmers = {
+		culture = swiss_french
+		religion = catholic
+		size = 6010
+	}
+
+	labourers = {
+		culture = swiss_french
+		religion = catholic
+		size = 369
+	}
+	
+	farmers = {
+		culture = swiss_german
+		religion = protestant
+		size = 930
+	}
+
+	labourers = {
+		culture = swiss_german
+		religion = protestant
+		size = 49
+	}
+	
+	farmers = {
+		culture = swiss_german
+		religion = catholic
+		size = 1524
+	}
+
+	labourers = {
+		culture = swiss_german
+		religion = catholic
+		size = 96
+	}
+}
+
+#Jura (POPS Taken from Basel)
+3271 = {
+	aristocrats = {
+		culture = swiss_french
+		religion = protestant
+		size = 48
+	}
+
+	clergymen = {
+		culture = swiss_french
+		religion = protestant
+		size = 86
+	}
+
+	craftsmen = {
+		culture = swiss_french
+		religion = protestant
+		size = 240
+	}
+
+	artisans = {
+		culture = swiss_french
+		religion = protestant
+		size = 704
+	}
+
+	farmers = {
+		culture = swiss_french
+		religion = protestant
+		size = 10200
+	}
+
+	labourers = {
+		culture = swiss_french
+		religion = protestant
+		size = 589
+	}
+
+	aristocrats = {
+		culture = swiss_french
+		religion = catholic
+		size = 48
+	}
+
+	clergymen = {
+		culture = swiss_french
+		religion = catholic
+		size = 80
+	}
+
+	craftsmen = {
+		culture = swiss_french
+		religion = catholic
+		size = 192
+	}
+
+	artisans = {
+		culture = swiss_french
+		religion = catholic
+		size = 592
+	}
+
+	farmers = {
+		culture = swiss_french
+		religion = catholic
+		size = 8046
+	}
+
+	labourers = {
+		culture = swiss_french
+		religion = catholic
+		size = 406
+	}
+}
+
+#Brig (POPS taken from Sitten)
+3272 = {
+	aristocrats = {
+		culture = swiss_german
+		religion = catholic
+		size = 96
+	}
+
+	clergymen = {
+		culture = swiss_german
+		religion = catholic
+		size = 58
+	}
+	
+	artisans = {
+		culture = swiss_german
+		religion = catholic
+		size = 302
+	}
+	
+	soldiers = {
+		culture = swiss_german
+		religion = catholic
+		size = 704
+	}
+	
+	farmers = {
+		culture = swiss_german
+		religion = catholic
+		size = 6070
+	}
+
+	labourers = {
+		culture = swiss_german
+		religion = catholic
+		size = 356
+	}
+}
+
+#Schaffhausen
+3314 = {
+	aristocrats = {
+		culture = swiss_german
+		religion = catholic
+		size = 32
+	}
+
+	clergymen = {
+		culture = swiss_german
+		religion = catholic
+		size = 64
+	}
+
+	artisans = {
+		culture = swiss_german
+		religion = catholic
+		size = 440
+	}
+
+	soldiers = {
+		culture = swiss_german
+		religion = catholic
+		size = 320
+	}
+
+	farmers = {
+		culture = swiss_german
+		religion = catholic
+		size = 9020
+	}
+
+	labourers = {
+		culture = swiss_german
+		religion = catholic
+		size = 480
+	}
+
+}
+#Lausanne (316000/79000 POPS)
+3332 = {
+	aristocrats = {
+		culture = swiss_french
+		religion = protestant
+		size = 200
+	}
+
+	bureaucrats = {
+		culture = swiss_french
+		religion = protestant
+		size = 120
+	}
+
+	officers = {
+		culture = swiss_french
+		religion = protestant
+		size = 60
+	}
+
+	clergymen = {
+		culture = swiss_french
+		religion = protestant
+		size = 300
+	}
+
+	artisans = {
+		culture = swiss_french
+		religion = protestant
+		size = 4000
+	}
+
+	soldiers = {
+		culture = swiss_french
+		religion = protestant
+		size = 1000
+	}
+
+	farmers = {
+		culture = swiss_french
+		religion = protestant
+		size = 30620
+	}
+
+	aristocrats = {
+		culture = swiss_french
+		religion = catholic
+		size = 300
+	}
+
+	bureaucrats = {
+		culture = swiss_french
+		religion = catholic
+		size = 80
+	}
+
+	officers = {
+		culture = swiss_french
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = swiss_french
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = swiss_french
+		religion = catholic
+		size = 3000
+	}
+
+	soldiers = {
+		culture = swiss_french
+		religion = catholic
+		size = 1000
+	}
+
+	farmers = {
+		culture = swiss_french
+		religion = catholic
+		size = 4030
+	}
+}

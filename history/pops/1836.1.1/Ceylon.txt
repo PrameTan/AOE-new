@@ -1,0 +1,566 @@
+#Ceylon (1224000) #now Sri Lanka
+#Under rule of Britain 1836
+#Colombo (400000/100000 POPS)
+1321 = {
+	aristocrats = {
+		culture = sinhala
+		religion = theravada
+		size = 3120
+	}
+
+	bureaucrats = {
+		culture = sinhala
+		religion = theravada
+		size = 120
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = theravada
+		size = 600
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = theravada
+		size = 640
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = theravada
+		size = 600
+	}
+
+	farmers = {
+		culture = sinhala
+		religion = theravada
+		size = 49134
+	}
+
+	labourers = {
+		culture = sinhala
+		religion = theravada
+		size = 2586
+	}
+
+	aristocrats = {
+		culture = tamil
+		religion = hindu
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = tamil
+		religion = hindu
+		size = 80
+	}
+
+	clergymen = {
+		culture = tamil
+		religion = hindu
+		size = 100
+	}
+
+	artisans = {
+		culture = tamil
+		religion = hindu
+		size = 600
+	}
+
+	soldiers = {
+		culture = tamil
+		religion = hindu
+		size = 80
+	}
+
+	farmers = {
+		culture = tamil
+		religion = hindu
+		size = 7448
+	}
+
+	labourers = {
+		culture = tamil
+		religion = hindu
+		size = 392
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = catholic
+		size = 40
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = catholic
+		size = 400
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = catholic
+		size = 40
+	}
+
+	farmers = {
+		culture = sinhala
+		religion = catholic
+		size = 4864
+	}
+
+	labourers = {
+		culture = sinhala
+		religion = catholic
+		size = 256
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = protestant
+		size = 20
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = protestant
+		size = 600
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = protestant
+		size = 20
+	}
+
+	farmers = {
+		culture = sinhala
+		religion = protestant
+		size = 912
+	}
+
+	labourers = {
+		culture = sinhala
+		religion = protestant
+		size = 48
+	}
+
+	aristocrats = {
+		culture = mashriqi
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = sunni
+		size = 60
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = sunni
+		size = 1200
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = sunni
+		size = 20
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = sunni
+		size = 2565
+	}
+
+	labourers = {
+		culture = mashriqi
+		religion = sunni
+		size = 135
+	}
+
+	aristocrats = {
+		culture = malay
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 880
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 40
+	}
+
+	farmers = {
+		culture = malay
+		religion = sunni
+		size = 1444
+	}
+
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 76
+	}
+
+}
+#Jaffna (288000/72000 POPS)
+1322 = {
+	aristocrats = {
+		culture = sinhala
+		religion = theravada
+		size = 400
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = theravada
+		size = 400
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = theravada
+		size = 3200
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = theravada
+		size = 400
+	}
+
+	farmers = {
+		culture = sinhala
+		religion = theravada
+		size = 32300
+	}
+
+	labourers = {
+		culture = sinhala
+		religion = theravada
+		size = 1700
+	}
+
+	aristocrats = {
+		culture = tamil
+		religion = hindu
+		size = 200
+	}
+
+	clergymen = {
+		culture = tamil
+		religion = hindu
+		size = 200
+	}
+
+	artisans = {
+		culture = tamil
+		religion = hindu
+		size = 1600
+	}
+
+	soldiers = {
+		culture = tamil
+		religion = hindu
+		size = 400
+	}
+
+	farmers = {
+		culture = tamil
+		religion = hindu
+		size = 15960
+	}
+
+	labourers = {
+		culture = tamil
+		religion = hindu
+		size = 840
+	}
+}
+#Kandy (304000/76000 POPS)
+1323 = {
+	aristocrats = {
+		culture = sinhala
+		religion = theravada
+		size = 600
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = theravada
+		size = 600
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = theravada
+		size = 3200
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = theravada
+		size = 600
+	}
+
+	farmers = {
+		culture = sinhala
+		religion = theravada
+		size = 52630
+	}
+
+	labourers = {
+		culture = sinhala
+		religion = theravada
+		size = 2770
+	}
+}
+#Trincomalee (208000/52000 POPS)
+1324 = {
+	aristocrats = {
+		culture = sinhala
+		religion = theravada
+		size = 200
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = theravada
+		size = 180
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = theravada
+		size = 400
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = theravada
+		size = 160
+	}
+
+	farmers = {
+		culture = sinhala
+		religion = theravada
+		size = 15067
+	}
+
+	labourers = {
+		culture = sinhala
+		religion = theravada
+		size = 793
+	}
+
+	aristocrats = {
+		culture = tamil
+		religion = hindu
+		size = 200
+	}
+
+	clergymen = {
+		culture = tamil
+		religion = hindu
+		size = 200
+	}
+
+	artisans = {
+		culture = tamil
+		religion = hindu
+		size = 400
+	}
+
+	soldiers = {
+		culture = tamil
+		religion = hindu
+		size = 200
+	}
+
+	farmers = {
+		culture = tamil
+		religion = hindu
+		size = 17290
+	}
+
+	labourers = {
+		culture = tamil
+		religion = hindu
+		size = 910
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = protestant
+		size = 20
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = protestant
+		size = 200
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = protestant
+		size = 20
+	}
+
+	farmers = {
+		culture = sinhala
+		religion = protestant
+		size = 532
+	}
+
+	labourers = {
+		culture = sinhala
+		religion = protestant
+		size = 28
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = catholic
+		size = 40
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = catholic
+		size = 400
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = catholic
+		size = 20
+	}
+
+	farmers = {
+		culture = sinhala
+		religion = catholic
+		size = 1121
+	}
+
+	labourers = {
+		culture = sinhala
+		religion = catholic
+		size = 59
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 40
+	}
+
+	farmers = {
+		culture = malay
+		religion = sunni
+		size = 513
+	}
+
+	labourers = {
+		culture = malay
+		religion = sunni
+		size = 27
+	}
+
+	aristocrats = {
+		culture = mashriqi
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = sunni
+		size = 40
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = sunni
+		size = 20
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = sunni
+		size = 1634
+	}
+
+	labourers = {
+		culture = mashriqi
+		religion = sunni
+		size = 86
+	}
+}
+#Maldives (24000/6000 POPS) #now independent
+1325 = {
+	aristocrats = {
+		culture = sinhala 
+		religion = sunni
+		size = 40
+	}
+
+	clergymen = {
+		culture = sinhala 
+		religion = sunni
+		size = 40
+	}
+
+	artisans = {
+		culture = sinhala 
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = sinhala 
+		religion = sunni
+		size = 60
+	}
+
+	farmers = {
+		culture = sinhala 
+		religion = sunni
+		size = 4260
+	}
+
+}

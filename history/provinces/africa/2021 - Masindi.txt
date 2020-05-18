@@ -1,0 +1,7 @@
+owner = BNY
+controller = BNY
+add_core = BNY
+add_core = BUG
+trade_goods = coffee  state_building = {  level = 1  building = coffee_factory  upgrade = yes  }
+terrain = savanna
+life_rating = 10

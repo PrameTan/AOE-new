@@ -1,0 +1,257 @@
+political_decisions = {
+	reform_admin = {
+		picture = unciv_beu
+		potential = {
+			tech_school = unciv_tech_school
+			NOT = { has_country_modifier = reformed_beurocracy }
+		}
+		allow = {
+			war = no
+			NOT = { militancy = 3 }
+			OR = {
+			health_care = acceptable_health_care
+			health_care = good_health_care
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = reformed_beurocracy
+				duration = -1
+			}
+			any_pop = {
+				limit = {
+					pop_majority_ideology = reactionary
+					militancy = 4
+				}
+			}
+			any_pop = {
+				limit = {
+					pop_majority_ideology = conservative
+					militancy = 3
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	reform_army = {
+		picture = unciv_army
+		potential = {
+			tech_school = unciv_tech_school
+			NOT = { has_country_modifier = reformed_army }
+		}
+		allow = {
+			war = no
+			OR = {
+			pensions = acceptable_pensions
+			pensions = good_pensions
+			}
+			NOT = { militancy = 3 }
+		}
+		effect = {
+			add_country_modifier = {
+				name = reformed_army
+				duration = -1
+			}
+			any_pop = {
+				limit = {
+					pop_majority_ideology = reactionary
+					militancy = 4
+				}
+			}
+			any_pop = {
+				limit = {
+					pop_majority_ideology = conservative
+					militancy = 3
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	reform_industry = {
+		picture = unciv_industry
+		potential = {
+			tech_school = unciv_tech_school
+			NOT = { has_country_modifier = reformed_industry }
+		}
+		allow = {
+			war = no
+			NOT = { militancy = 3 }
+			OR = {
+			pensions = acceptable_pensions
+			pensions = good_pensions
+			}
+			OR = {
+			unemployment_subsidies = low_subsidies
+			unemployment_subsidies = acceptable_subsidies
+			unemployment_subsidies = good_subsidies
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = reformed_industry
+				duration = -1
+			}
+			add_country_modifier = {
+				name = global_baby_boom
+				duration = 1825
+			}
+			any_pop = {
+				limit = {
+					pop_majority_ideology = reactionary
+					militancy = 4
+				}
+			}
+			any_pop = {
+				limit = {
+					pop_majority_ideology = conservative
+					militancy = 3
+				}
+			}
+		}
+		ai_will_do = { 
+			factor = 0
+			modifier = {
+				factor = 100
+				NOT = {
+					OR = {
+						tag = QNG
+						tag = KOR
+						tag = MUG
+						tag = BNG
+					}
+				}
+			}
+		}
+	}
+	embrace_western_cultural_ideas = {
+		picture = unciv_culture
+		potential = {
+			tech_school = unciv_tech_school
+			NOT = { has_country_modifier = western_values }
+		}
+		allow = {
+			war = no
+			NOT = { militancy = 3 }
+			OR = {
+				is_secondary_power = yes
+				AND = {
+					literacy = 0.6
+					part_of_sphere = yes
+				}
+				AND = {
+					is_greater_power = yes
+					literacy = 0.6
+					phenomenology_n_hermeneutic = 1
+				}
+			}
+			}
+			effect = {
+				add_country_modifier = {
+					name = western_values
+					duration = -1
+				}
+				any_pop = {
+					limit = {
+						pop_majority_ideology = reactionary
+						militancy = 4
+					}
+				}
+				any_pop = {
+					limit = {
+						pop_majority_ideology = conservative
+						militancy = 3
+					}
+				}
+			}
+			ai_will_do = { 
+				factor = 0
+				modifier = {
+					factor = 100
+					OR = {
+						is_secondary_power = yes
+						AND = {
+							is_greater_power = yes
+							has_recently_lost_war = yes
+						}
+					}
+					NOT = {
+						OR = {
+							tag = QNG
+							tag = KOR
+							tag = MUG
+							tag = BNG
+						}
+					}
+				}
+			}
+		}
+	civilize = {
+		picture = unciv_civilize
+		potential = {
+			civilized = yes
+			tech_school = unciv_tech_school
+			NOT = {
+				has_country_modifier = academic_confusion
+			}
+		}
+		allow = {
+			prestige = 45
+			war = no
+			NOT = { militancy = 3 }
+			has_country_modifier = reformed_beurocracy
+			has_country_modifier = reformed_army
+			has_country_modifier = reformed_industry
+			has_country_modifier = western_values
+		}
+		effect = {
+			prestige = -15
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 3650
+			}
+			tech_school = traditional_academic
+			clr_country_flag = unciv
+		}
+		ai_will_do = { factor = 1 }
+	}
+	change_gov_unciv = {
+		picture = unciv_gov
+		potential = {
+			NOT = { tech_school = unciv_tech_school }
+			government = tribal_democracy
+		}
+		allow = {
+			war = no	
+		}
+		effect = {
+			government = hms_government
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	iqs_ireddentalism = {
+		picture = native_persecution
+		potential = {
+			tag = IQS
+			NOT = { has_country_flag = iqs_ireddentalism }
+		}
+		allow = {
+			war = no
+			war_policy = jingoism
+			NOT = { government = tribal_democracy }
+		}
+		effect = {
+			set_country_flag = iqs_ireddentalism
+			badboy = 10
+			USA_170 = { add_core = THIS }
+			174 = { add_core = THIS }
+			173 = { add_core = THIS }
+			175 = { add_core = THIS }
+			176 = { add_core = THIS }
+			165 = { add_core = THIS }
+			168 = { add_core = THIS }
+			167 = { add_core = THIS }
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

@@ -1,0 +1,136 @@
+####Game-Master and CleanUp
+
+country_event = {
+	id = 6016818 #Game Master Maintenance 
+	title = "Game Master"
+	desc = "Game Master"
+
+	trigger = { 
+				tag = HAW
+	           ai = yes
+			   month = 0
+			   NOT = { month = 1 }
+			   NOT = { has_country_modifier = gm_timer }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}		
+	
+	immediate = { 
+	             #any_country = { 
+				 #               limit = { exists = no }  
+				 #				 any_core = { 
+				 #				             limit = { is_capital = yes is_overseas = yes }
+				 #				 } 
+				 #				 country_event = 9999842
+				 #} 
+	}
+	
+	option = {
+		name = "Game Master"
+		any_country = { limit = { has_country_flag = game_master } clr_country_flag = game_master }
+		random_country = {
+			limit = { AND = { exists = yes ai = yes } }
+			set_country_flag = game_master
+		}
+		any_country = {
+			#limit = { ai = yes }
+			add_country_modifier = { name = gm_timer  duration = 60 }
+		}
+		add_country_modifier = { name = gm_timer  duration = 60 }
+		
+		any_country = {
+			limit = { NOT = { has_global_flag = ghost_units_cleanup } exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 } }
+			country_event = 6016821
+		}
+		
+		#Colonial Nations Variables
+		any_country = {
+                       set_variable = { 
+                       	               which = colonial_contribution_overlord
+                       	               value = 0
+                       }
+		}
+		any_country = {
+                       set_variable = { 
+                       	               which = colonial_contribution_vassal
+                       	               value = 0
+                       }
+		}
+		#any_country = {
+		#	limit = { exists = no has_country_flag = dynamic_tag }
+		#	country_event = 9999817
+		#}
+		#any_country = {
+		#	limit = { exists = no NOT = { is_cultural_union = yes } any_core = { owner = { has_country_flag = dynamic_tag } } }
+		#	country_event = 9999810
+		#}
+		#any_country = {
+		#	limit = { exists = yes has_country_flag = dynamic_tag }
+		#	country_event = 9999807
+		#}
+		
+		country_event = 9999800
+	}
+}
+
+
+country_event = {
+	id = 6016821 #HPM-inspired ghost unit cleanup 1/2
+	title = "Ghost Unit CleanUp 1/2"
+	desc = "Ghost Unit CleanUp 1/2"
+
+	is_triggered_only = yes	
+
+	option = {
+		name = "Ghost Unit CleanUp 1/2"
+		random_country = { limit = { owns = 2127 NOT = { has_country_flag = ghost_country } } set_country_flag = ghost_country_host }
+		set_country_flag = ghost_country
+		set_global_flag = ghost_units_cleanup
+		2127 = { secede_province = THIS }
+		#political_reform = closed_borders
+		add_country_modifier = { name = ghost_country_haunting  duration = 60 }
+		treasury = 1000
+		neutrality = yes
+		any_country = {
+			limit = { war_with = THIS }
+			end_war = THIS
+		}
+	}
+}
+
+country_event = {
+	id = 6016820 #HPM-inspired ghost unit cleanup 2/2
+	title = "Ghost Unit CleanUp 2/2"
+	desc = "Ghost Unit CleanUp 2/2"
+
+	trigger = {
+		       #exists = yes
+			   owns = 2127
+		       is_mobilised = no
+			   has_country_flag = ghost_country
+			   NOT = { has_country_modifier = ghost_country_haunting } 
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}		
+	
+	option = {
+		name = "Ghost Unit CleanUp 2/2"
+		clr_country_flag = ghost_country
+		any_country = { clr_country_flag = ghost_country }
+		clr_global_flag = ghost_units_cleanup
+		neutrality = yes
+		random_country = {
+			limit = { has_country_flag = ghost_country_host }
+			clr_country_flag = ghost_country_host
+			inherit = THIS
+		}
+		any_country = {
+			limit = { exists = no OR = { is_mobilised = yes total_amount_of_ships = 1 } }
+			country_event = 6016821
+		}
+	}
+}

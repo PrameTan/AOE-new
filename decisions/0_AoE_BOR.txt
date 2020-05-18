@@ -1,0 +1,387 @@
+political_decisions = {
+
+	rights_of_man = {
+		picture = rights_of_man
+		potential = {
+			primary_culture = french
+			NOT = { has_country_flag = rights_of_man }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					year = 1789
+					pop_militancy = 4
+				}
+				political_thought_8 = 1
+			}
+			has_country_flag = edict_of_tolerance
+		}
+		
+		effect = {
+			random_pop = {
+				militancy = -2
+			}
+			
+			add_country_modifier = {
+				name = rights_of_man
+				duration = -1
+			}
+		}
+	}
+	
+	edict_of_tolerance = {
+	 picture = tolerance_edict
+		potential = {
+			primary_culture = french
+			NOT = { has_country_flag = edict_of_tolerance }
+		}
+		allow = {
+			pop_militancy = 4
+			political_thought_7 = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = freedom_of_religion
+				duration = -1
+			}
+			any_pop = {
+				limit = {
+					religion = protestant 
+				}
+				militancy = -2
+			}
+			any_pop = {
+				limit = {
+					religion = catholic 
+				}
+				militancy = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	establish_ecole_militire = {
+		picture = fra_soldier
+		potential = {
+			OR = {
+				tag = FRA
+				tag = BOR
+			}
+			is_greater_power = yes
+			NOT = { has_country_flag = established_ecole_militire }
+		}
+		allow = {
+			bolt_action_rifles = 1
+			military_spending = 1
+			money = 100000
+		}
+		effect = {
+			money = -100000
+			add_country_modifier = {
+				name = ecole_militire
+				duration = -1
+			}
+			set_country_flag = established_ecole_militire 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	louis_dream = {
+		picture = louis_dream
+		potential = {
+			tag = BOR
+			NOT = { has_country_flag = louis_dream }
+		}
+		allow = {
+			owns = 387
+			owns = 394
+			owns = 397
+			OR = {
+				has_country_modifier = louis_grande
+				AND = {
+					mass_politics = 1
+					war_policy = jingoism
+				}
+			}
+			NOT = { has_country_modifier = peasant_turmoil }
+			has_recently_lost_war = no
+		}
+		effect = {
+			badboy = 25
+			set_country_flag = louis_dream
+			BEL_387 = {
+				add_core = THIS
+			}
+			BEL_394 = {
+				add_core = THIS
+			}
+			NET_379 = {
+				add_core = THIS
+			}
+			397 = {
+				add_core = THIS
+			}
+			THIS = { country_event = 171100 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 15
+			}
+		}
+	}
+	
+	form_french_rhineland = {
+		picture = louis_dream
+		potential = {
+			tag = BOR
+			has_country_flag = louis_dream
+			NOT = { has_country_flag = form_french_rhineland }
+		}
+		allow = {
+			LIG = {
+				vassal_of = THIS
+				in_sphere = THIS
+			}
+			ACH = {
+				vassal_of = THIS
+				in_sphere = THIS
+			}
+			TRR = {
+				vassal_of = THIS
+				in_sphere = THIS
+			}
+			KOL = { vassal_of = THIS in_sphere = THIS }
+			has_recently_lost_war = no
+		}
+		effect = {
+			badboy = 10
+			set_country_flag = form_french_rhineland
+			LIG = { 
+				all_core = {
+					add_core = FRH
+				}
+				change_tag = FRH
+			}
+			ACH = { 
+				all_core = {
+					add_core = FRH
+				}
+			}
+			TRR = { 
+				all_core = {
+					add_core = FRH
+				}
+			}
+			KOL = { 
+				all_core = {
+					add_core = FRH
+				}
+			}
+			FRH = {
+				inherit = ACH
+				inherit = TRR
+				inherit = KOL
+			}
+			create_vassal = FRH
+			prestige = 15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	annex_rhineland = {
+		picture = louis_dream
+		potential = {
+			tag = BOR
+			FRH = { exists = yes }
+		}
+		allow = {
+			FRH = { vassal_of = THIS in_sphere = THIS }
+			FRH = {
+				all_core = {
+					OR = {
+						owned_by = FRH
+						owned_by = THIS
+					}
+				}
+			}
+			political_thought_7 = 1
+			NOT = { has_country_modifier = peasant_turmoil }
+			has_recently_lost_war = no
+		}
+		effect = {
+			badboy = 10
+			FRH = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			inherit = FRH
+			prestige = 15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	southern_border = {
+		picture = southern_borders
+		potential = {
+			OR = {
+				tag = BOR
+				tag = FRA
+			}
+			NOT = { has_country_flag = claimed_south_border }
+		}
+		allow = {
+			SAR_466 = {
+				owner = {
+					NOT = { in_sphere = THIS }
+					NOT = {
+						relation = {
+							who = THIS
+							value = 0
+						}
+					}
+				}
+			}
+			war_policy = jingoism
+			ideological_thought = 1
+		}
+		effect = {
+			set_country_flag = claimed_south_border
+			badboy = 6
+			SAR_466 = {
+				add_core = THIS
+			}
+			471 = {
+				add_core = THIS
+			}
+		}
+	}
+	
+	frh_rhine = {
+		picture = rhine
+		potential = {
+			tag = FRH
+			FRH = { exists = yes }
+			NOT = { has_country_flag = frh_rhine }
+		}
+		allow = {
+			exists = yes
+		}
+		effect = {
+			badboy = 5
+			PRU_575 = {
+				add_core = THIS
+			}
+			PRU_570 = {
+				add_core = THIS
+			}
+			set_country_flag = frh_rhine
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_rhine_ger = {
+		picture = rhine
+		potential = {
+			tag = FRH
+			FRH = { exists = yes }
+		}
+		allow = {
+			NOT = { is_vassal = yes }
+		}
+		effect = {
+			FRH = {
+				all_core = {
+					add_core = RHI
+					remove_core = FRH
+				}
+			}
+			change_tag = RHI
+			prestige = 15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	crown_of_italy = {
+		picture = crown_of_italy
+		potential = {
+			tag = BOR
+			NOT = { has_country_flag = crown_of_italy }
+		}
+		allow = {
+			owns = 471
+			NOT = {
+				OR = {
+					pensions = no_pensions
+					pensions = trinket_pensions
+				}
+			}
+			is_our_vassal = NAP
+			is_our_vassal = LOM
+		}
+		effect = {
+			badboy = 25
+			SAR_720 = {
+				add_core = THIS
+			}
+			TUS_744 = {
+				add_core = THIS
+			}
+			AUS_726 = {
+				add_core = THIS
+			}
+			AUS_729 = {
+				add_core = THIS
+			}
+			AUS_736 = {
+				add_core = THIS
+			}
+			SAR_765 = {
+				add_core = THIS
+			}
+			prestige = 15
+			TUS = { country_event = 171110 }
+			set_country_flag = crown_of_italy
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 15
+			}
+		}
+	}
+	
+	annex_lor = {
+		picture = lorraine
+		potential = {
+			tag = BOR
+			NOT = { has_country_flag = annex_lor }
+		}
+		allow = {
+			mass_politics = 1
+			LOR = { in_sphere = THIS }
+		}
+		effect = {
+			inherit = LOR
+			badboy = 5
+			set_country_flag = annex_lor
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

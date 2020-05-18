@@ -1,0 +1,7 @@
+owner = MOS
+controller = MOS
+add_core = SEG
+add_core = MOS
+trade_goods = cattle  state_building = {  level = 1  building = cattle_factory  upgrade = yes  }
+terrain = semidesert
+life_rating = 32

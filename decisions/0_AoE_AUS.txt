@@ -1,0 +1,433 @@
+political_decisions = {	
+	end_transylvanian_inpedendance = {
+		picture = wallachia
+		potential = {
+			tag = AUS
+			has_global_flag = hungarian_revolution_fail
+			SIE = {
+				exists = yes 
+			}
+		}
+		allow = {
+			is_our_vassal = SIE
+			state_n_government = 1
+		}
+		
+		effect = {
+			SIE = {
+				annex_to = THIS
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = romanian
+				}
+				militancy = 2
+			}
+			badboy = 1
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	hungarian_reunification = {
+		picture = hungary_flag
+		potential = {
+			tag = AUS
+			has_global_flag = hungarian_revolution_fail
+			HUN = {
+				vassal_of = AUS
+			}
+		}
+		allow = {
+			idealism = 1
+		}
+		
+		effect = {
+			HUN = {
+				annex_to = THIS
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = hungarian
+				}
+				militancy = 2
+			}
+			badboy = 1
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	order_to_siebenburger = {
+		picture = wallachia
+		potential = {
+			tag = AUS
+			has_global_flag = hungarian_revolution_fail
+			HUN = {
+				exists = no
+			}
+			SIE = {
+				exists = yes
+				is_vassal = no
+			}
+		}
+		allow = {
+			rank = 8
+			is_sphere_leader_of = SIE
+			
+		}
+		
+		effect = {
+			create_vassal = SIE
+			any_pop = {
+				limit = {
+					has_pop_culture = romanian
+				}
+				militancy = 2
+			}
+			badboy = 1
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	enact_codex_theresianus = {
+		picture = codex_theresianus
+		potential = {
+			tag = AUS
+			NOT = {
+				has_country_flag = enacted_codex_theresianus
+			}
+		}
+		allow = {
+			has_country_modifier = maria_theresa
+			NOT = {
+				OR = {
+					health_care = no_health_care
+					health_care = trinket_health_care
+					health_care = low_health_care
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = codex_theresianus
+				duration = -1
+			}
+			set_country_flag = enacted_codex_theresianus
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	constitutio_criminalis_theresiana = {
+		picture = codex_theresianus
+		potential = {
+			tag = AUS
+			NOT = {
+				has_country_flag = constitutio_criminalis_theresiana
+			}
+			has_country_flag = enacted_codex_theresianus
+		}
+		allow = {
+			has_country_modifier = maria_theresa
+			health_care = good_health_care
+			social_alienation = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = constitutio_criminalis_theresiana
+				duration = -1
+			}
+			set_country_flag = constitutio_criminalis_theresiana
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	vaccination_mar = {
+		picture = ill_hand
+		potential = {
+			tag = AUS
+			NOT = {
+				has_country_flag = vaccination_mar
+			}
+		}
+		allow = {
+			electricity = 1
+			has_country_modifier = maria_theresa
+		}
+		effect = {
+			add_country_modifier = {
+				name = austrian_vaccination
+				duration = 3650
+			}
+			set_country_flag = vaccination_mar
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	establish_theresian_military_academy = {
+		picture = army_training
+		potential = {
+			tag = AUS
+			NOT = {
+				has_country_flag = military_academy
+			}
+		}
+		allow = {
+			army_nco_training = 1
+			ruling_party_ideology = reactionary
+			has_country_modifier = maria_theresa
+			NOT = { pensions = no_pensions }
+		}
+		effect = {
+			add_country_modifier = {
+				name = theresian_military_academy
+				duration = 3650
+			}
+			set_country_flag = military_academy
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	joseph_ii_reforms = {
+		picture = josephism
+			potential = {
+			tag = AUS
+			NOT = {
+				has_country_flag = joseph_ii_reforms
+			}
+		}
+		allow = {
+			political_thought_7 = 1
+			ruling_party_ideology = reactionary
+			NOT = { has_country_modifier = maria_theresa }
+		}
+		effect = {
+			add_country_modifier = {
+				name = josephism
+				duration = 7300
+			}
+			set_country_flag = joseph_ii_reforms
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	joseph_i_bureacracy = {
+		picture = josephism
+			potential = {
+			tag = AUS
+			NOT = {
+				has_country_flag = joseph_i_bureacracy
+			}
+		}
+		allow = {
+			private_bank_money_bill_printing = 1
+			ruling_party_ideology = conservative
+			NOT = { has_country_modifier = maria_theresa }
+			NOT = {
+				OR = {
+					health_care = good_health_care
+					health_care = acceptable_health_care
+				}
+			}
+			war = no
+		}
+		effect = {
+			any_pop = {
+				limit = {
+					is_primary_culture = yes
+				}
+				militancy = -2
+			}
+			prestige = 5
+			social_reform = acceptable_health_care
+			set_country_flag = joseph_i_bureacracy
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	financial_reform_joseph = {
+		picture = josephism
+			potential = {
+			tag = AUS
+			NOT = {
+				has_country_flag = financial_reform
+			}
+			has_country_flag = joseph_i_bureacracy
+		}
+		allow = {
+			stock_exchange  = 1
+			ruling_party_ideology = conservative
+			NOT = { has_country_modifier = maria_theresa }
+		}
+		effect = {
+			add_tax_relative_income = 0.1
+			prestige = 5
+			social_reform = good_health_care
+			set_country_flag = financial_reform
+			add_country_modifier = {
+				name = habsburg_finances
+				duration = -1
+			}
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	charles_vi_court = {
+		picture = josephism
+			potential = {
+			tag = AUS
+			NOT = {
+				has_country_flag = austrian_court
+			}
+		}
+		allow = {
+			impressionism = 1
+			NOT = { has_country_modifier = maria_theresa }
+			387 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			prestige = 20
+			capital_scope = {
+				any_pop = {
+					literacy = 0.1
+				}
+				labourers = {
+					reduce_pop = 1.5
+				}
+			}	
+			set_country_flag = austrian_court
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	ambitions_in_bavaria = {
+		picture = austria_coa
+			potential = {
+			tag = AUS
+			NOT = {
+				has_country_flag = ambitions_in_bavaria
+			}
+		}
+		allow = {
+			mass_politics = 1
+			has_country_modifier = maria_theresa
+			rank = 4
+		}
+		effect = {
+			prestige = 10
+			badboy = 20
+			BAV = {
+				any_owned = {
+					add_core = AUS
+				}
+			}
+			set_country_flag = ambitions_in_bavaria
+		}
+		ai_will_do = {					
+		factor = 1
+		}
+	}
+	
+	issue_pragmatic_sanction = {
+		picture = austria_coa
+		potential = {
+			tag = AUS
+			NOT = {
+				has_country_modifier = maria_theresa
+			}
+			NOT = { has_country_flag = issued_pragmatic_sanction }
+			NOT = { has_country_flag = maria_ded }
+			has_country_flag = dynastic_crisis
+		}
+		allow = {
+			state_n_government = 1
+			prestige = 200
+			is_greater_power = yes
+		}
+		effect = {
+			set_country_flag = issued_pragmatic_sanction
+			country_event = 174503
+		}
+	}
+#####Hungary stuff#####
+	start_pest_congress = {
+		picture = hungary_flag
+		potential = {
+			tag = HUN
+			has_global_flag = hungarian_revolution_succes
+			NOT = { has_global_flag = pest_congress }
+			SIE = {
+				vassal_of = HUN
+			}
+		}
+		allow = {
+			idealism = 1
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = pest_congress
+			prestige = 10
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	make_confederation = {
+		picture = austria_coa
+		
+		potential = {
+			tag = HUN
+			has_global_flag = hungarian_revolution_succes
+			AUS = { has_country_flag = confederation }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			war = no
+			HUN = {
+				rank = 16
+			}
+			
+			is_our_vassal = AUS
+		}
+		effect = {
+			HUN = { change_tag = KUK }
+			inherit = AUS
+			KUK = {
+				capital = 641
+			}
+			AUS = {
+				all_core = {
+					add_core = KUK
+				}
+			}
+			HUN = {
+				all_core = {
+					limit = {
+						NOT = {
+							is_core = SIE
+							is_core = SLV
+							is_core = SLO
+							is_core = CRO
+							is_core = RUT
+							is_core = SER
+						}
+					}
+					add_core = KUK
+				}
+			}
+			badboy = 8
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

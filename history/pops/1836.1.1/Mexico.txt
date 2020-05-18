@@ -1,0 +1,3329 @@
+#Sonora Region (140000)
+#ruled by Mexico 1836
+#Hermosillo (76000/19000 POPS)
+2137 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 3
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 24
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 7
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 685
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 69
+	}
+
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 85
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 51
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 272
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1051
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 4732
+	}
+
+	labourers = {
+		culture = native_american_minor
+		religion = animist
+		size = 249
+	}
+}
+#Nogales (12000/3000 POPS)
+2140 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 2
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 14
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 107
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 69
+	}
+
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 17
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 34
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 68
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 417
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1224
+	}
+}
+#Guaymas (52000/13000 POPS)
+2141 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 7
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 34
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 668
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 65
+	}
+
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 34
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 51
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 102
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 517
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1744
+	}
+
+	labourers = {
+		culture = native_american_minor
+		religion = animist
+		size = 92
+	}
+}
+#Baja California Region (20000)
+#ruled by Mexico 1836
+#Loreto (4000/1000 POPS)
+2138 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 1
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 168
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 26
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 2
+	}
+	
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 68
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 168
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 168
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 129
+	}
+
+	labourers = {
+		culture = native_american_minor
+		religion = animist
+		size = 70
+	}
+}
+#Rosarito (16000/4000 POPS)
+2139 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 34
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 617
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 11
+	}
+
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 17
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 34
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 168
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 317
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1163
+	}
+
+	labourers = {
+		culture = native_american_minor
+		religion = animist
+		size = 161
+	}
+}
+#Chihuahua Region (136000)
+#ruled by Mexico 1836
+#Chihuahua (100000/25000 POPS)
+2142 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 2
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 34
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 7
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 653
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 185
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 34
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 59
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 109
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 917
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1836
+	}
+}
+#Paso del Norte (12000/3000 POPS)
+2143 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 1
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 12
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 268
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 2
+	}
+	
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 68
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 168
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 668
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1421
+	}
+
+	labourers = {
+		culture = native_american_minor
+		religion = animist
+		size = 175
+	}
+}
+#Delicias (8000/2000 POPS)
+2144 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 1
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 368
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 5
+	}
+	
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 68
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 168
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 968
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 775
+	}
+
+	labourers = {
+		culture = native_american_minor
+		religion = animist
+		size = 141
+	}
+}
+#Parral (16000/4000 POPS)
+2145 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 1
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 14
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 257
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 9
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 3
+	}
+
+	aristocrats = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 34
+	}
+
+	clergymen = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 51
+	}
+
+	artisans = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 102
+	}
+
+	soldiers = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 617
+	}
+
+	farmers = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 1836
+	}
+}
+#Coahuila Region (160000)
+#ruled by Mexico 1836
+#Morelos (12000/3000 POPS)
+2147 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 1
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 12
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 268
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+	
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 68
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 168
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 780
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1421
+	}
+
+	labourers = {
+		culture = native_american_minor
+		religion = animist
+		size = 175
+	}
+}
+#Saltillo (44000/11000 POPS)
+2151 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 7
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 48
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 51
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 27
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 651
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 96
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 42
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 51
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 192
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 917
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1970
+	}
+}
+#Monclova (48000/12000 POPS)
+2152 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 48
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 685
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 39
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 20
+	}
+	
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 68
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 168
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1068
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 3230
+	}
+
+	labourers = {
+		culture = native_american_minor
+		religion = animist
+		size = 190
+	}
+}
+#Torreon (56000/14000 POPS)
+2155 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 685
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 42
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 37
+	}
+
+	clergymen = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 68
+	}
+
+	artisans = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 112
+	}
+
+	soldiers = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 868
+	}
+
+	farmers = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 1870
+	}
+}
+#Nuevo Leon-Tamaulipas Region (172000)
+#ruled by Mexico 1836
+#Reynosa (16000/4000 POPS)
+2148 = {
+	aristocrats = {
+		culture = pueblo
+		religion = animist
+		size = 17
+	}
+
+	clergymen = {
+		culture = pueblo
+		religion = animist
+		size = 24
+	}
+
+	artisans = {
+		culture = pueblo
+		religion = animist
+		size = 51
+	}
+
+	soldiers = {
+		culture = pueblo
+		religion = animist
+		size = 508
+	}
+
+	farmers = {
+		culture = pueblo
+		religion = animist
+		size = 646
+	}
+
+	labourers = {
+		culture = pueblo
+		religion = animist
+		size = 34
+	}
+
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 8
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 17
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 34
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 98
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 549
+	}
+
+	labourers = {
+		culture = native_american_minor
+		religion = animist
+		size = 29
+	}
+}
+#Matamoros (28000/7000 POPS)
+2149 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 37
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 685
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 29
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 33
+	}
+	
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 68
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 168
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 668
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 3682
+	}
+
+	labourers = {
+		culture = native_american_minor
+		religion = animist
+		size = 294
+	}
+}
+#Ciudad Victoria (24000/6000 POPS)
+2150 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 7
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 51
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 17
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 170
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1170
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 1066
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 71
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 338
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1051
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 4420
+	}
+}
+#Durango-Sinaloa Region (252000)
+#ruled by Mexico 1836
+#Durango (64000/16000 POPS)
+2153 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 76
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1102
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 72
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 43
+	}
+
+	aristocrats = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 17
+	}
+
+	clergymen = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 68
+	}
+
+	artisans = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 168
+	}
+
+	soldiers = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 768
+	}
+
+	farmers = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 1224
+	}
+}
+#Santa Maria del Oro (44000/11000 POPS)
+2154 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 5
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 6
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 368
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 33
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	aristocrats = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 17
+	}
+
+	clergymen = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 68
+	}
+
+	artisans = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 168
+	}
+
+	soldiers = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 968
+	}
+
+	farmers = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 1224
+	}
+}
+#Mazatlan (116000/29000 POPS)
+2156 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 17
+	}
+
+	clergymen = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 187
+	}
+
+	artisans = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 198
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1004
+	}
+
+	farmers = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 1625
+	}
+
+	labourers = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 189
+	}
+}
+#Culiacan (28000/7000 POPS)
+2157 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 9
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 28
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1068
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 14
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 13
+	}
+	
+	clergymen = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 168
+	}
+
+	soldiers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 1068
+	}
+
+	farmers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 2240
+	}
+}
+#Zacatecas-Aguascalientes Region (568000)
+#ruled by Mexico 1836
+#Zacatecas (340000/85000 POPS)
+2158 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 11
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 22
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 51
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 29
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 28
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 2289
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 319
+	}
+
+	clergymen = {
+		culture = nahua
+		religion = catholic
+		size = 136
+	}
+
+	artisans = {
+		culture = nahua
+		religion = catholic
+		size = 1462
+	}
+
+	soldiers = {
+		culture = nahua
+		religion = catholic
+		size = 2306
+	}
+
+	farmers = {
+		culture = nahua
+		religion = catholic
+		size = 27336
+	}
+}
+#Aguascalientes (152000/38000 POPS)
+2160 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 119
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 37
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1272
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 59
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 55
+	}
+	
+	clergymen = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 168
+	}
+
+	artisans = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 340
+	}
+
+	soldiers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 1340
+	}
+
+	farmers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 12920
+	}
+}
+#Tepic (76000/19000 POPS)
+2161 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 9
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 51
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1102
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 83
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 56
+	}
+
+	clergymen = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 68
+	}
+
+	artisans = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 236
+	}
+
+	soldiers = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 768
+	}
+
+	farmers = {
+		culture = nahua #native_american_minor
+		religion = animist
+		size = 2516
+	}
+}
+#Potosi-Guanajuato Region (1356000)
+#ruled by Mexico 1836
+#San Luis Potosi (324000/81000 POPS)
+2159 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 323
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 132
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 2080
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 960
+	}
+
+	clergymen = {
+		culture = nahua
+		religion = catholic
+		size = 119
+	}
+
+	artisans = {
+		culture = nahua
+		religion = catholic
+		size = 1122
+	}
+
+	soldiers = {
+		culture = nahua
+		religion = catholic
+		size = 2238
+	}
+
+	farmers = {
+		culture = nahua
+		religion = catholic
+		size = 20757
+	}
+}
+#Guanajuato (672000/168000 POPS)
+2167 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 22
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 391
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 255
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 45
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 24
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 2060
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 350
+	}
+
+	clergymen = {
+		culture = nahua
+		religion = catholic
+		size = 340
+	}
+
+	artisans = {
+		culture = nahua
+		religion = catholic
+		size = 3570
+	}
+
+	soldiers = {
+		culture = nahua
+		religion = catholic
+		size = 2714
+	}
+
+	farmers = {
+		culture = nahua
+		religion = catholic
+		size = 63502
+	}
+
+	labourers = {
+		culture = nahua
+		religion = catholic
+		size = 3342
+	}
+}
+#Queretaro (360000/90000 POPS)
+2173 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 170
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 86
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1360
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 194
+	}
+
+	clergymen = {
+		culture = nahua
+		religion = catholic
+		size = 170
+	}
+
+	artisans = {
+		culture = nahua
+		religion = catholic
+		size = 1904
+	}
+
+	soldiers = {
+		culture = nahua
+		religion = catholic
+		size = 2391
+	}
+
+	farmers = {
+		culture = nahua
+		religion = catholic
+		size = 39627
+	}
+}
+#Veracruz-Tabasco Region (328000)
+#ruled by Mexico 1836
+#Veracruz (140000/70000 POPS)
+2162 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 9
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 109
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 34
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 140
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 16
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 534
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 88
+	}
+
+	clergymen = {
+		culture = nahua
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = nahua
+		religion = catholic
+		size = 714
+	}
+
+	soldiers = {
+		culture = nahua
+		religion = catholic
+		size = 1153
+	}
+
+	farmers = {
+		culture = nahua
+		religion = catholic
+		size = 13617
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = catholic
+		size = 34
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = catholic
+		size = 340
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = catholic
+		size = 680
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = catholic
+		size = 6358
+	}
+}
+#Tampico (80000/20000 POPS)
+2163 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 9
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 102
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 217
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 80
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+
+	clergymen = {
+		culture = nahua #native_american_minor
+		religion = catholic
+		size = 34
+	}
+
+	artisans = {
+		culture = nahua #native_american_minor
+		religion = catholic
+		size = 612
+	}
+
+	soldiers = {
+		culture = nahua #native_american_minor
+		religion = catholic
+		size = 1136
+	}
+
+	farmers = {
+		culture = nahua #native_american_minor
+		religion = catholic
+		size = 11458
+	}
+}
+#Minatitlan (48000/12000 POPS)
+2164 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 7
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 51
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 107
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 38
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 2
+	}
+
+	clergymen = {
+		culture = nahua
+		religion = catholic
+		size = 34
+	}
+
+	artisans = {
+		culture = nahua
+		religion = catholic
+		size = 374
+	}
+
+	soldiers = {
+		culture = nahua
+		religion = catholic
+		size = 585
+	}
+
+	farmers = {
+		culture = nahua
+		religion = catholic
+		size = 6638
+	}
+
+	labourers = {
+		culture = nahua
+		religion = catholic
+		size = 349
+	}
+}
+#Villahermosa (60000/15000 POPS)
+2165 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 2
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 12
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 534
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 34
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	clergymen = {
+		culture = mayan
+		religion = catholic
+		size = 34
+	}
+
+	artisans = {
+		culture = mayan
+		religion = catholic
+		size = 458
+	}
+
+	soldiers = {
+		culture = mayan
+		religion = catholic
+		size = 1050
+	}
+
+	farmers = {
+		culture = mayan
+		religion = catholic
+		size = 7251
+	}
+
+	labourers = {
+		culture = mayan
+		religion = catholic
+		size = 382
+	}
+}
+#Jalisco Region (448000)
+#ruled by Mexico 1836
+#Guadalajara (300000/75000 POPS)
+2166 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 15
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 170
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 51
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 238
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 80
+	}
+	
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 136
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1442
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 335
+	}
+
+	clergymen = {
+		culture = nahua #native_american_minor
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = nahua #native_american_minor
+		religion = catholic
+		size = 374
+	}
+
+	soldiers = {
+		culture = nahua #native_american_minor
+		religion = catholic
+		size = 1050
+	}
+
+	farmers = {
+		culture = nahua #native_american_minor
+		religion = catholic
+		size = 6987
+	}
+}
+#Puerto Vallarta (148000/37000 POPS)
+2168 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 5
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 816
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1170
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 321
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 733
+	}
+
+	clergymen = {
+		culture = nahua #native_american_minor
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = nahua #native_american_minor
+		religion = catholic
+		size = 442
+	}
+
+	soldiers = {
+		culture = nahua #native_american_minor
+		religion = catholic
+		size = 602
+	}
+
+	farmers = {
+		culture = nahua #native_american_minor
+		religion = catholic
+		size = 8245
+	}
+}
+#Michoacan Region (568000)
+#ruled by Mexico 1836
+#Colima (108000/27000 POPS)
+2169 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 9
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 119
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 91
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 687
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 76
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 19
+	}
+	
+	clergymen = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 68
+	}
+
+	soldiers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 1080
+	}
+
+	farmers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 8160
+	}
+}
+#Morelia (348000/87000 POPS)
+2170 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 19
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 221
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 34
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 340
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 134
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 2357
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 264
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 540
+	}
+
+	clergymen = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 219
+	}
+
+	artisans = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 1224
+	}
+
+	soldiers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 2255
+	}
+
+	farmers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 22882
+	}
+}
+#Los Alaniles (112000/28000 POPS)
+2171 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 9
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 136
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 74
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 636
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 84
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 3
+	}
+
+	clergymen = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 151
+	}
+
+	artisans = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 272
+	}
+
+	soldiers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 1068
+	}
+
+	farmers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 11849
+	}
+}
+#Mexico Region (720000)
+#ruled by Mexico 1836
+#Mexico City (508000/127000 POPS)
+2172 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 112
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 306
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 85
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 527
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 80
+	}
+	
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 680
+	}
+	
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 60
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1544
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 324
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 166
+	}
+
+	clergymen = {
+		culture = nahua
+		religion = catholic
+		size = 170
+	}
+
+	artisans = {
+		culture = nahua
+		religion = catholic
+		size = 6800
+	}
+	
+	artisans = {
+		culture = nahua
+		religion = catholic
+		size = 6290
+	}
+
+	soldiers = {
+		culture = nahua
+		religion = catholic
+		size = 2340
+	}
+
+	farmers = {
+		culture = nahua
+		religion = catholic
+		size = 18734
+	}
+
+	labourers = {
+		culture = nahua
+		religion = catholic
+		size = 1086
+	}
+}
+#Toluca (212000/53000 POPS)
+2174 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 7
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 136
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 66
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1040
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 31
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 33
+	}
+
+	clergymen = {
+		culture = nahua
+		religion = catholic
+		size = 102
+	}
+
+	artisans = {
+		culture = nahua
+		religion = catholic
+		size = 1156
+	}
+
+	soldiers = {
+		culture = nahua
+		religion = catholic
+		size = 2238
+	}
+
+	farmers = {
+		culture = nahua
+		religion = catholic
+		size = 20543
+	}
+
+	labourers = {
+		culture = nahua
+		religion = catholic
+		size = 1081
+	}
+}
+#Puebla-Hidalgo Region (692000)
+#ruled by Mexico 1836
+#Tulancingo (188000/47000 POPS)
+2175 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 6
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 136
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 66
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1136
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 188
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 58
+	}
+
+	clergymen = {
+		culture = nahua
+		religion = catholic
+		size = 85
+	}
+
+	artisans = {
+		culture = nahua
+		religion = catholic
+		size = 952
+	}
+
+	soldiers = {
+		culture = nahua
+		religion = catholic
+		size = 1204
+	}
+
+	farmers = {
+		culture = nahua
+		religion = catholic
+		size = 16909
+	}
+
+	labourers = {
+		culture = nahua
+		religion = catholic
+		size = 890
+	}
+}
+#Puebla (504000/126000 POPS)
+2176 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 34
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 272
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 68
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 612
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 78
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 4360
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 243
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 11
+	}
+
+	clergymen = {
+		culture = nahua
+		religion = catholic
+		size = 255
+	}
+
+	artisans = {
+		culture = nahua
+		religion = catholic
+		size = 4420
+	}
+
+	soldiers = {
+		culture = nahua
+		religion = catholic
+		size = 2510
+	}
+
+	farmers = {
+		culture = nahua
+		religion = catholic
+		size = 42232
+	}
+
+	labourers = {
+		culture = nahua
+		religion = catholic
+		size = 2223
+	}
+}
+#Oaxaca Region (452000)
+#ruled by Mexico 1836
+#Oaxaca (352000 88000 POPS)
+2177 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 22
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 119
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 51
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 323
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 119
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 3040
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 255
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 54
+	}
+
+	clergymen = {
+		culture = nahua #zapotec
+		religion = catholic
+		size = 238
+	}
+
+	artisans = {
+		culture = nahua #zapotec
+		religion = catholic
+		size = 3060
+	}
+
+	soldiers = {
+		culture = nahua #zapotec
+		religion = catholic
+		size = 2476
+	}
+
+	farmers = {
+		culture = nahua #zapotec
+		religion = catholic
+		size = 44506
+	}
+}
+#Collataro (100000/25000 POPS)
+2178 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 7
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 102
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 17
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 634
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 29
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 18
+	}
+
+	clergymen = {
+		culture = nahua #zapotec
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = nahua #zapotec
+		religion = catholic
+		size = 748
+	}
+
+	soldiers = {
+		culture = nahua #zapotec
+		religion = catholic
+		size = 1136
+	}
+
+	farmers = {
+		culture = nahua #zapotec
+		religion = catholic
+		size = 12716
+	}
+}
+#Guerrero Region (246000)
+#ruled by Mexico 1836
+#Acapulco (156000/44000 POPS)
+2179 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 6
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 85
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 17
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 221
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 72
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1170
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 120
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 79
+	}
+
+	clergymen = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 714
+	}
+
+	soldiers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 753
+	}
+
+	farmers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 13345
+	}
+}
+#Chilpancingo (80000/20000 POPS)
+2180 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 6
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 102
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 36
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 1068
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 71
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 27
+	}
+
+	clergymen = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 34
+	}
+
+	artisans = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 374
+	}
+
+	soldiers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 1085
+	}
+
+	farmers = {
+		culture = nahua #tarascan
+		religion = catholic
+		size = 6987
+	}
+}
+#Chiapas Region (124000)
+#ruled by Mexico 1836
+#Tuxtla (84000/21000 POPS)
+2181 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 6
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 17
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 17
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 102
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 16
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 734
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 23
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = mayan
+		religion = catholic
+		size = 34
+	}
+
+	artisans = {
+		culture = mayan
+		religion = catholic
+		size = 578
+	}
+
+	soldiers = {
+		culture = mayan
+		religion = catholic
+		size = 1119
+	}
+
+	farmers = {
+		culture = mayan
+		religion = catholic
+		size = 10288
+	}
+
+	labourers = {
+		culture = mayan
+		religion = catholic
+		size = 541
+	}
+}
+#Tapachula (40000/10000 POPS)
+2182 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 5
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 34
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 13
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 434
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 45
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 11
+	}
+	
+	aristocrats = {
+		culture = central_american
+		religion = catholic
+		size = 12
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = catholic
+		size = 34
+	}
+
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 93
+	}
+	
+	artisans = {
+		culture = central_american
+		religion = catholic
+		size = 24
+	}
+
+	clergymen = {
+		culture = mayan
+		religion = catholic
+		size = 301
+	}
+
+	farmers = {
+		culture = mayan
+		religion = catholic
+		size = 3094
+	}
+}
+#Yucatan Region (440000)
+#ruled by Mexico 1836
+#Merida (240000/60000 POPS)
+2183 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 8
+	}
+
+	bureaucrats = {
+		culture = mexican
+		religion = catholic
+		size = 136
+	}
+
+	officers = {
+		culture = mexican
+		religion = catholic
+		size = 34
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 323
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 71
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 2360
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 86
+	}
+
+	clergymen = {
+		culture = mayan
+		religion = catholic
+		size = 85
+	}
+
+	artisans = {
+		culture = mayan
+		religion = catholic
+		size = 1326
+	}
+
+	soldiers = {
+		culture = mayan
+		religion = catholic
+		size = 2272
+	}
+
+	farmers = {
+		culture = mayan
+		religion = catholic
+		size = 24837
+	}
+}
+#Camnpeche (108000/27000 POPS)
+2184 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 7
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 119
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 27
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 568
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 37
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 23
+	}
+
+	clergymen = {
+		culture = mayan
+		religion = catholic
+		size = 68
+	}
+
+	artisans = {
+		culture = mayan
+		religion = catholic
+		size = 612
+	}
+
+	soldiers = {
+		culture = mayan
+		religion = catholic
+		size = 1136
+	}
+
+	farmers = {
+		culture = mayan
+		religion = catholic
+		size = 11499
+	}
+
+	labourers = {
+		culture = mayan
+		religion = catholic
+		size = 605
+	}
+}
+#Bacalar (92000/23000 POPS)
+2185 = {
+	aristocrats = {
+		culture = mexican
+		religion = catholic
+		size = 3
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 102
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 307
+	}
+
+	farmers = {
+		culture = mexican
+		religion = catholic
+		size = 9
+	}
+
+	labourers = {
+		culture = mexican
+		religion = catholic
+		size = 4
+	}
+
+	clergymen = {
+		culture = mexican
+		religion = catholic
+		size = 34
+	}
+
+	artisans = {
+		culture = mexican
+		religion = catholic
+		size = 74
+	}
+
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 103
+	}
+
+	farmers = {
+		culture = mayan
+		religion = catholic
+		size = 13324
+	}
+
+	labourers = {
+		culture = mayan
+		religion = catholic
+		size = 1701
+	}
+
+}

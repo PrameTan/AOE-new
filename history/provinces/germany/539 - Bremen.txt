@@ -1,0 +1,8 @@
+owner = BRE
+controller = BRE
+add_core = BRE
+add_core = GER
+add_core = NNN
+trade_goods = fish  state_building = {  level = 1  building = fish_factory  upgrade = yes  }
+state_building = {  level = 1  building = clipper_shipyard  upgrade = yes  }
+life_rating = 40
