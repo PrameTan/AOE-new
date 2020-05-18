@@ -837,6 +837,24 @@ denis_diderot = {
 	# }
 # }
 #anti__rationalism - Modern Political Philosophy
+political_philosophy = {
+	limit = { anti__rationalism = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 2
+			mass_politics = 1
+		}
+	}
+	effect = {
+		shared_prestige = 12.5 
+	}
+}
 existentialism = {
 	limit = { anti__rationalism = 1 }
 	news = no
@@ -891,25 +909,8 @@ futurism = {
 		shared_prestige = 12.5  
 	}
 }
-quantum_theory = {
-	limit = { anti__rationalism = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			average_consciousness = 5
-		}
-		modifier = {
-			factor = 2
-			invention = phenomenology
-		}
-	}
-	effect = {
-		shared_prestige = 12.5 
-	}
-}
-#biologism
+
+#biologism - Scientific rationalism
 darwinism = {
 	limit = { biologism = 1 }
 	news = no
@@ -950,7 +951,7 @@ social_darwinism = {
 		war_exhaustion = -0.05
 	}
 }
-#social_science
+#social_science - Science of Man
 sociology = {
 	limit = { social_science = 1 }
 	news = no
@@ -1019,6 +1020,16 @@ social_anthropology = {
 	}
 	effect = {
 		colonial_prestige = 0.1 
+	}
+}
+philology = {
+	limit = { social_science = 1 }
+	news = no
+	chance = {
+		base = 2
+	}
+	effect = {
+		
 	}
 }
 #social_alienation - Enlightenment Ideal
