@@ -780,11 +780,19 @@ problem_of_induction = {
 	# }
 # }
 #phenomenology_n_hermeneutic - enlightenment_philosophy
-denis_diderot = {
+encyclopedia = {
 	limit = { phenomenology_n_hermeneutic = 1 }
 	news = no
 	chance = {
 		base = 2
+		modifier = {
+			factor = 4
+			invention = denis_diderot
+		}
+		modifier = {
+			factor = 4
+			invention = jean_dalembert
+		}
 	}
 	effect = {
 		shared_prestige = 10 
@@ -800,6 +808,21 @@ denis_diderot = {
 		shared_prestige = 10 
 	}
 }
+jean_dalembert = {
+	limit = { phenomenology_n_hermeneutic = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			synthetic_polymers = 1
+		}
+	}
+	effect = {
+		shared_prestige = 10 
+	}
+}
+
 # phenomenology = {
 	# limit = { phenomenology_n_hermeneutic = 1 }
 	# news = no
@@ -891,66 +914,110 @@ nihilism_and_the_will = {
 		shared_prestige = 12.5 
 	}
 }
-futurism = {
-	limit = { anti__rationalism = 1 }
+# futurism = {
+	# limit = { anti__rationalism = 1 }
+	# news = no
+	# chance = {
+		# base = 2
+		# modifier = {
+			# factor = 2
+			# invention = stainless_steel
+		# }
+		# modifier = {
+			# factor = 2
+			# synthetic_polymers = 1
+		# }
+	# }
+	# effect = {
+		# shared_prestige = 12.5  
+	# }
+# }
+
+# philosophy_7 - Transcendental Idealism
+immanuel_kant = {
+	limit = { philosophy_7 = 1 }
 	news = no
 	chance = {
 		base = 2
 		modifier = {
 			factor = 2
-			invention = stainless_steel
+			psychoanalysis = 1
 		}
 		modifier = {
 			factor = 2
-			synthetic_polymers = 1
+			social_alienation = 1
 		}
 	}
 	effect = {
-		shared_prestige = 12.5  
+		shared_prestige = 15  
+	}
+}
+transcendental_idealism = {
+	limit = { philosophy_7 = 1 }
+	news = no
+	chance = {
+		base = 2
+	}
+	effect = {
+		shared_prestige = 15
+	}
+}
+critical_philsophy = {
+	limit = { philosophy_7 = 1 }
+	news = no
+	chance = {
+		base = 2
+	}
+	effect = {
+		shared_prestige = 15
+	}
+}
+# philosophy_8
+absolute_idealism = {
+	limit = { philosophy_8 = 1 }
+	news = no
+	chance = {
+		base = 2
+	}
+	effect = {
+		shared_prestige = 20
+	}
+}
+gwf_hegel = {
+	limit = { philosophy_8 = 1 }
+	news = no
+	chance = {
+		base = 2
+	}
+	effect = {
+		shared_prestige = 20
 	}
 }
 
 #biologism - Scientific rationalism
-darwinism = {
+age_of_reason = {
 	limit = { biologism = 1 }
-	news = no
+	news = yes
 	chance = {
 		base = 2
 		modifier = {
 			factor = 2
-			impressionism = 1
+			inorganic_chemistry = 1
 		}
 		modifier = {
 			factor = 2
-			invention = genetics_heredity
-		}
+			analytic_philosophy = 1
+		}		
 		modifier = {
 			factor = 1
 			invention = philosophy_of_language
 		}
 	}
 	effect = {
-		education_efficiency = 0.50
+		education_efficiency = 0.4
 	}
 }
-social_darwinism = {
-	limit = { biologism = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = darwinism
-		}
-		modifier = {
-			factor = 2
-			invention = national_fraternity
-		}
-	}
-	effect = {
-		war_exhaustion = -0.05
-	}
-}
+
 #social_science - Science of Man
 sociology = {
 	limit = { social_science = 1 }
@@ -1032,6 +1099,7 @@ philology = {
 		
 	}
 }
+
 #social_alienation - Enlightenment Ideal
 early_archaeology = {
 	limit = { social_alienation = 1 }
@@ -1046,41 +1114,23 @@ early_archaeology = {
 		shared_prestige = 12.5
 	}
 }
-the_revolt_of_the_masses = {
+voltaire = {
 	limit = { social_alienation = 1 }
 	news = no
 	chance = {
 		base = 2
 		modifier = {
 			factor = 2
-			revolution_n_counterrevolution = 1
-		}
-		modifier = {
-			factor = 2
-			great_war_experience = 1
+			phenomenology_n_hermeneutic = 1
 		}
 	}
 	effect = {
+		prestige = 12.5
 		plurality = 0.10
-		war_exhaustion = -0.25
+		core_pop_consciousness_modifier = 0.1
 	}
 }
-the_decline_of_the_west_and_the_lost_generation = {
-	limit = { social_alienation = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			great_war_experience = 1
-		}
-		modifier = {
-			factor = 2
-			invention = mission_to_civilize
-		}
-	}
-	core_pop_consciousness_modifier = 0.05
-}
+
 #the rights of man - called enlightenment_thought in files...
 paternalism = {
 	limit = { state_n_government = 1 }
@@ -1101,30 +1151,7 @@ paternalism = {
 		plurality = -0.05
 		}
 }
-constitutionalism = {
-	limit = {
-		state_n_government = 1
-		has_country_flag = existing_country
-	}
-	news = no
-	chance = {
-		base = 3
-		modifier = {
-			factor = 2
-			government = hms_government
-		}
-		modifier = {
-			factor = 1
-			NOT = { political_parties = underground_parties }
-		}
-		
 
-	}
-	effect = {
-		plurality = 0.05
-		suppression_points_modifier = -0.05
-	}
-}
 atheism = {
 	limit = {
 		ideological_thought = 1
@@ -1892,70 +1919,34 @@ vangaurd_party = {
 	}
 }
 #mass_politics
-the_doctrine_of_fascism = {
-	limit = { mass_politics = 1 }
+constitutionalism = {
+	limit = {
+		mass_politics = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
-		base = -4
-		
+		base = 3
 		modifier = {
 			factor = 2
-			anti__rationalism = 1
-		}
-		modifier = {
-			factor = 5
-			mass_culture_n_the_avant_garde = 1
+			government = hms_government
 		}
 		modifier = {
 			factor = 1
-			invention = nihilism_and_the_will
-		}
-		modifier = {
-			factor = 1
-			invention = futurism
-		}
-		modifier = {
-			factor = 1
-			invention = existentialism
-		}
-		modifier = {
-			factor = 2
-			invention = rhetoric_of_hate
-		}
-		modifier = {
-			factor = 2
-			invention = dogma_of_violence
-		}
-		modifier = {
-			factor = 2
-			invention = dogma_of_mass_action
-		}
-		modifier = {
-			factor = 2
-			ruling_party_ideology = fascist
-		}
-		modifier = {
-			factor = 1
-			nationalvalue = nv_order
-		}
-		
-		modifier = {
-			factor = 2
-			invention = paramilitary_groups
-		}
-		
-		modifier = {
-			factor = 3
-			average_militancy = 4
+			NOT = { political_parties = underground_parties }
 		}
 	}
 	effect = {
+		plurality = 0.05
+		suppression_points_modifier = -0.05
 		rebel_org_gain = {
-			faction = fascist_rebels
+			faction = liberal_rebels
 			value = 0.75
 		}
 	}
+	}
 }
+
 paramilitary_groups = {
 	limit = { mass_politics = 1 }
 	news = no

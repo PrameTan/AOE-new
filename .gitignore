@@ -9,3 +9,7 @@ AOE/battleplans/
 AOE/common/
 AOE/decisions/
 AOE/events/
+AOE/.gitattributes
+AOE/ValidatorSettings.txt
+AOE/credits.txt
+AOE/s.txt

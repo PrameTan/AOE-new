@@ -9,6 +9,26 @@ i_paper_mill = {
 		activate_building = paper_mill 
 	}
 }
+
+weaving = {
+	limit = { piston_steam_engine = 1 }
+	chance = {
+		base = 6
+	}
+	effect = {
+		activate_building =  fabric_factory
+		rgo_goods_output = {
+			grain = 0.1
+		}
+		rgo_goods_output = {
+			fruit = 0.1
+		}
+		rgo_goods_output = {
+			coffee = 0.1
+		}
+	}
+}
+
 # high_pressure_steam_engine - Early Steam Engine
 newcomen_engine = {
 	news = no
@@ -148,6 +168,16 @@ polyphase_system = {
 	effect = {
 		rgo_output = 0.05
 		factory_throughput = 0.02
+	}
+}
+# mechanical_production
+tulls_seed_drill = {
+	limit = { mechanical_production = 1 }
+	chance = {
+		base = 6
+	}
+	effect = {
+		factory_goods_output = { grain = 0.1 }
 	}
 }
 #interchangeable_parts
@@ -1445,39 +1475,26 @@ electrical_lighting = {
 }
 
 #synthetic_polymers
-rayon = {
+diff_equations = {
 	limit = { synthetic_polymers = 1 }
 	chance = {
 		base = 2
 		modifier = {
 			factor = 2
-			organizational_development = 1
-		}
-		modifier = {
-			factor = 2
-			mutual_funds = 1
+			invention = leonhard_euler
 		}
 	}
 	effect = {
-		factory_goods_output = { fabric = 0.05 } 
+		factory_output = 0.01
 	}
 }
-
-bakelite = {
+leonhard_euler = {
 	limit = { synthetic_polymers = 1 }
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			invention = bell_n_greys_telephones
-		}
-		modifier = {
-			factor = 2
-			time_saving_measures = 1
-		}
 	}
 	effect = {
-		factory_goods_output = { glass  = 0.05 } 
+		shared_prestige = 10
 	}
 }
 
@@ -1502,24 +1519,7 @@ vacuum_tube = {
 	}
 }
 
-weaving = {
-	limit = { piston_steam_engine = 1 }
-	chance = {
-		base = 6
-	}
-	effect = {
-		activate_building =  fabric_factory
-		rgo_goods_output = {
-			grain = 0.1
-		}
-		rgo_goods_output = {
-			fruit = 0.1
-		}
-		rgo_goods_output = {
-			coffee = 0.1
-		}
-	}
-}
+
 
 rotherham_plough = {
 	limit = { high_pressure_steam_engine = 1 }
@@ -1621,16 +1621,6 @@ carl_bosch = {
 		factory_goods_output = { oil = 0.2 }
 		factory_goods_output = { fertilizer = 0.2 }
 		factory_goods_output = { fuel = 0.2 }
-	}
-}
-
-tulls_seed_drill = {
-	limit = { mechanical_production = 1 }
-	chance = {
-		base = 6
-	}
-	effect = {
-		factory_goods_output = { grain = 0.1 }
 	}
 }
 
