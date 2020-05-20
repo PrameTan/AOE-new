@@ -878,60 +878,25 @@ political_philosophy = {
 		shared_prestige = 12.5 
 	}
 }
-existentialism = {
+jean_jacques_rousseau = {
 	limit = { anti__rationalism = 1 }
 	news = no
 	chance = {
 		base = 2
 		modifier = {
 			factor = 2
-			invention = expressionist_literature
+			average_consciousness = 5
 		}
 		modifier = {
 			factor = 2
-			invention = dogma_of_violence
+			invention = political_philosophy
 		}
 	}
 	effect = {
 		shared_prestige = 12.5 
+		core_pop_consciousness_modifier = 0.01
 	}
 }
-nihilism_and_the_will = {
-	limit = { anti__rationalism = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = national_fraternity
-		}
-		modifier = {
-			factor = 2
-			invention = social_anthropology
-		}
-	}
-	effect = {
-		shared_prestige = 12.5 
-	}
-}
-# futurism = {
-	# limit = { anti__rationalism = 1 }
-	# news = no
-	# chance = {
-		# base = 2
-		# modifier = {
-			# factor = 2
-			# invention = stainless_steel
-		# }
-		# modifier = {
-			# factor = 2
-			# synthetic_polymers = 1
-		# }
-	# }
-	# effect = {
-		# shared_prestige = 12.5  
-	# }
-# }
 
 # philosophy_7 - Transcendental Idealism
 immanuel_kant = {
@@ -1943,7 +1908,6 @@ constitutionalism = {
 			faction = liberal_rebels
 			value = 0.75
 		}
-	}
 	}
 }
 
