@@ -17,15 +17,15 @@ weaving = {
 	}
 	effect = {
 		activate_building =  fabric_factory
-		rgo_goods_output = {
-			grain = 0.1
-		}
-		rgo_goods_output = {
-			fruit = 0.1
-		}
-		rgo_goods_output = {
-			coffee = 0.1
-		}
+		# rgo_goods_output = {
+			# grain = 0.1
+		# }
+		# rgo_goods_output = {
+			# fruit = 0.1
+		# }
+		# rgo_goods_output = {
+			# coffee = 0.1
+		# }
 	}
 }
 
